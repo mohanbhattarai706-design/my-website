@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manley Sales - Wholesale Asian Produces | Fresh Fruits & Vegetables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">MANLEY SALES</div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <button class="theme-toggle" id="themeToggle" title="Toggle theme"></button>
+                <a href="https://www.manleysales.ca/" class="contact-btn" target="_blank" >Visit Official Website</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-slider" id="home">
+        <div class="slider-container">
+            <!-- Slide 1: Dragon Fruit -->
+            <div class="slide active">
+                <div class="slide-bg" style="background: linear-gradient(135deg, rgba(10, 10, 10, 0.5), rgba(45, 80, 22, 0.6)), url('https://static.wixstatic.com/media/e3337b_47bc535a291841309bbfd5990902e3ab~mv2.jpg/v1/fill/w_609,h_609,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e3337b_47bc535a291841309bbfd5990902e3ab~mv2.jpg') center/cover;"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="slide-badge">🐉 EXOTIC FRUITS</span>
+                    <h1 class="slide-title">Premium<br>Dragon Fruit</h1>
+                    <p class="slide-description">Fresh exotic dragon fruit from trusted suppliers. Rich in antioxidants and perfect for retail display. Available in pink and white varieties.</p>
+                    <div class="slide-buttons">
+                        <button class="btn-primary">Order Now</button>
+                        <button class="btn-secondary">View Details</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Asian Vegetables -->
+            <div class="slide">
+                <div class="slide-bg" style="background: linear-gradient(135deg, rgba(10, 10, 10, 0.5), rgba(45, 80, 22, 0.6)), url('https://cdn.pixabay.com/photo/2016/08/11/08/04/vegetables-1584999_1280.jpg') center/cover;"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="slide-badge">🥬 FRESH VEGETABLES</span>
+                    <h1 class="slide-title">Asian Produce<br>Selection</h1>
+                    <p class="slide-description">Authentic Asian vegetables sourced daily. Bok choy, gai lan, daikon, and more specialty items for your diverse customer base.</p>
+                    <div class="slide-buttons">
+                        <button class="btn-primary">Browse Catalog</button>
+                        <button class="btn-secondary">Contact Sales</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Fresh Citrus -->
+            <div class="slide">
+                <div class="slide-bg" style="background: linear-gradient(135deg, rgba(10, 10, 10, 0.5), rgba(255, 107, 53, 0.5)), url('https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_1280.jpg') center/cover;"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="slide-badge">🍊 SEASONAL CITRUS</span>
+                    <h1 class="slide-title">Citrus<br>Excellence</h1>
+                    <p class="slide-description">Hand-selected citrus fruits at peak ripeness. Oranges, mandarins, and pomelos delivered fresh to your store daily.</p>
+                    <div class="slide-buttons">
+                        <button class="btn-primary">Get Pricing</button>
+                        <button class="btn-secondary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Root Vegetables -->
+            <div class="slide">
+                <div class="slide-bg" style="background: linear-gradient(135deg, rgba(10, 10, 10, 0.5), rgba(45, 80, 22, 0.6)), url('https://restaurantclicks.com/wp-content/uploads/2022/10/Types-Of-Root-Vegetables.jpg') center/cover;"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="slide-badge">🥕 ROOT VEGETABLES</span>
+                    <h1 class="slide-title">Farm Fresh<br>Root Veggies</h1>
+                    <p class="slide-description">Quality root vegetables including carrots, turnips, and specialty Asian varieties. Perfect for year-round supply.</p>
+                    <div class="slide-buttons">
+                        <button class="btn-primary">Shop Now</button>
+                        <button class="btn-secondary">View Catalog</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Leafy Greens -->
+            <div class="slide">
+                <div class="slide-bg" style="background: linear-gradient(135deg, rgba(10, 10, 10, 0.5), rgba(45, 80, 22, 0.6)), url('https://static.vecteezy.com/system/resources/previews/042/202/768/non_2x/ai-generated-assorted-fresh-leafy-greens-for-a-plant-based-diet-free-photo.jpeg') center/cover;"></div>
+                <div class="slide-overlay"></div>
+                <div class="slide-content">
+                    <span class="slide-badge">🌿 LEAFY GREENS</span>
+                    <h1 class="slide-title">Crisp Fresh<br>Greens</h1>
+                    <p class="slide-description">Hydro-cooled leafy greens with extended shelf life. Lettuce, spinach, and Asian greens delivered at optimal freshness.</p>
+                    <div class="slide-buttons">
+                        <button class="btn-primary">Order Today</button>
+                        <button class="btn-secondary">Explore Range</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-arrow prev">‹</div>
+        <div class="slider-arrow next">›</div>
+        
+        <div class="slider-nav">
+            <div class="slider-dot active"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+        </div>
+    </section>
+
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">Our Products</span>
+                <h2 class="section-title">Premium Produce Selection</h2>
+                <p class="section-subtitle">Extensive variety of fresh Asian and conventional produce delivered daily to your store</p>
+            </div>
+            <div class="products-tabs fade-in">
+                <button class="tab-btn active" data-category="all">All</button>
+                <button class="tab-btn" data-category="vegetables">Vegetables</button>
+                <button class="tab-btn" data-category="fruits">Fruits</button>
+                <button class="tab-btn" data-category="roots">Roots</button>
+                <button class="tab-btn" data-category="squashes">Squashes</button>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Vegetables -->
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Bok Choy.avif" alt="Bok Choy">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Bok Choy</h3>
+                        <p class="product-description">Crisp, fresh bok choy delivered daily. Baby and standard sizes available.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Eggplant.avif" alt="Eggplant">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Eggplant</h3>
+                        <p class="product-description">Fresh purple eggplant, perfect for stir-fries and Asian cuisine.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Flat Cabbage.avif" alt="Flat Cabbage">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Flat Cabbage</h3>
+                        <p class="product-description">Fresh flat cabbage, ideal for salads and cooking.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Gai Lan.avif" alt="Gai Lan">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Gai Lan</h3>
+                        <p class="product-description">Chinese broccoli, fresh and crisp for authentic Asian dishes.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Green Onion.avif" alt="Green Onion">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Green Onion</h3>
+                        <p class="product-description">Fresh green onions, essential for flavoring and garnishing.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Mini Baby Bok Choy.avif" alt="Mini Baby Bok Choy">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Mini Baby Bok Choy</h3>
+                        <p class="product-description">Tender mini baby bok choy, perfect portion size.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Mini Shanghai Bok Choy.avif" alt="Mini Shanghai Bok Choy">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Mini Shanghai Bok Choy</h3>
+                        <p class="product-description">Petite Shanghai bok choy with tender leaves.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Nappa Cabbage.jpg" alt="Nappa Cabbage">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Nappa Cabbage</h3>
+                        <p class="product-description">Crisp nappa cabbage, perfect for kimchi and stir-fries.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Shanghai Bok.avif" alt="Shanghai Bok">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Shanghai Bok</h3>
+                        <p class="product-description">Green Shanghai bok choy with thick stems.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Snap Peas.avif" alt="Snap Peas">
+                        <div class="product-badge">SEASONAL</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Snap Peas</h3>
+                        <p class="product-description">Crisp and sweet snap peas for cooking or snacking.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="vegetables">
+                    <div class="product-image">
+                        <img src="Pictures/Vegetables/Showcase/Snow Peas.avif" alt="Snow Peas">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Vegetables</div>
+                        <h3 class="product-title">Snow Peas</h3>
+                        <p class="product-description">Tender snow peas perfect for stir-fries.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fruits -->
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Brown Asian Pear.avif" alt="Brown Asian Pear">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Brown Asian Pear</h3>
+                        <p class="product-description">Crisp and juicy brown Asian pears with distinctive texture.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Fuji Apple.avif" alt="Fuji Apple">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Fuji Apple</h3>
+                        <p class="product-description">Sweet and crisp Fuji apples, a customer favorite.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Honey Pomelo.avif" alt="Honey Pomelo">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Honey Pomelo</h3>
+                        <p class="product-description">Large, sweet honey pomelo with mild citrus flavor.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Oranges.avif" alt="Oranges">
+                        <div class="product-badge">SEASONAL</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Oranges</h3>
+                        <p class="product-description">Fresh, juicy oranges at peak ripeness.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Rambutan.avif" alt="Rambutan">
+                        <div class="product-badge">EXOTIC</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Rambutan</h3>
+                        <p class="product-description">Sweet, fragrant rambutan. Seasonal availability.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Red Dragonfruit.avif" alt="Red Dragonfruit">
+                        <div class="product-badge">EXOTIC</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Red Dragonfruit</h3>
+                        <p class="product-description">Vibrant red dragon fruit rich in antioxidants.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Red Flesh Honey Pomelo.avif" alt="Red Flesh Honey Pomelo">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Red Flesh Honey Pomelo</h3>
+                        <p class="product-description">Sweet pomelo with beautiful red flesh inside.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Ya Pears.avif" alt="Ya Pears">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Ya Pears</h3>
+                        <p class="product-description">Crisp Chinese Ya pears with sweet flavor.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Yellow Asian Pear.avif" alt="Yellow Asian Pear">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Yellow Asian Pear</h3>
+                        <p class="product-description">Golden Asian pears with exceptional sweetness.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Yellow Dragonfruit.avif" alt="Yellow Dragonfruit">
+                        <div class="product-badge">EXOTIC</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Yellow Dragonfruit</h3>
+                        <p class="product-description">Rare yellow dragon fruit with unique sweet flavor.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="fruits">
+                    <div class="product-image">
+                        <img src="Pictures/Fruits/showcase/Young Coconut.avif" alt="Young Coconut">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Fruits</div>
+                        <h3 class="product-title">Young Coconut</h3>
+                        <p class="product-description">Fresh young coconuts with sweet water and tender meat.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roots -->
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Carrot.avif" alt="Carrot">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Carrot</h3>
+                        <p class="product-description">Fresh, crisp carrots perfect for any dish.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Eddoes.avif" alt="Eddoes">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Eddoes</h3>
+                        <p class="product-description">Nutty flavored root vegetables for authentic cooking.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Ginger.avif" alt="Ginger">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Ginger</h3>
+                        <p class="product-description">Fresh ginger root, essential for Asian and global cuisines.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Green Lo Bok.avif" alt="Green Lo Bok">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Green Lo Bok</h3>
+                        <p class="product-description">Green variety of radish with mild sweet flavor.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Kohlrabi.avif" alt="Kohlrabi">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Kohlrabi</h3>
+                        <p class="product-description">Crisp kohlrabi, versatile for raw or cooked dishes.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Lo Bok.avif" alt="Lo Bok">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Lo Bok</h3>
+                        <p class="product-description">Large daikon radish, essential for Asian cooking.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Lotus Root.avif" alt="Lotus Root">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Lotus Root</h3>
+                        <p class="product-description">Fresh lotus root with unique texture and mild taste.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Malanga Coco(Taro).avif" alt="Malanga Coco">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Malanga Coco (Taro)</h3>
+                        <p class="product-description">Starchy root vegetable perfect for boiling or frying.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Purple Sweet Potatoes.jpg" alt="Purple Sweet Potatoes">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Purple Sweet Potatoes</h3>
+                        <p class="product-description">Vibrant purple sweet potatoes rich in antioxidants.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Tumeric.avif" alt="Turmeric">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Turmeric</h3>
+                        <p class="product-description">Fresh turmeric root with powerful health benefits.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="roots">
+                    <div class="product-image">
+                        <img src="Pictures/Roots/Showcase/Yuca (Cassava).avif" alt="Yuca (Cassava)">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Roots</div>
+                        <h3 class="product-title">Yuca (Cassava)</h3>
+                        <p class="product-description">Starchy yuca root, versatile for many preparations.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Squashes -->
+                <div class="product-card fade-in" data-category="squashes">
+                    <div class="product-image">
+                        <img src="Pictures/Squashes/Showcase/Butternut Squash.avif" alt="Butternut Squash">
+                        <div class="product-badge">SEASONAL</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Squashes</div>
+                        <h3 class="product-title">Butternut Squash</h3>
+                        <p class="product-description">Sweet butternut squash perfect for roasting and soups.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="squashes">
+                    <div class="product-image">
+                        <img src="Pictures/Squashes/Showcase/Chayote.avif" alt="Chayote">
+                        <div class="product-badge">FRESH</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Squashes</div>
+                        <h3 class="product-title">Chayote</h3>
+                        <p class="product-description">Mild-flavored chayote squash for various dishes.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in" data-category="squashes">
+                    <div class="product-image">
+                        <img src="Pictures/Squashes/Showcase/Kabocha.avif" alt="Kabocha">
+                        <div class="product-badge">PREMIUM</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Squashes</div>
+                        <h3 class="product-title">Kabocha</h3>
+                        <p class="product-description">Japanese pumpkin with sweet, dense flesh.</p>
+                        <div class="product-footer">
+                            <span class="product-link">Learn More →</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="show-more-btn" id="showMoreBtn">Show More</button>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in">
+                    <div class="stat-icon">📅</div>
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-label">Years in Business</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-icon">🏪</div>
+                    <div class="stat-number" data-target="500">0</div>
+                    <div class="stat-label">Retail Partners</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-icon">🚚</div>
+                    <div class="stat-number" data-target="1000">0</div>
+                    <div class="stat-label">Weekly Deliveries</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-icon">⭐</div>
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Quality Score</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-content">
+            <div class="about-text slide-in-left">
+                <h2>Wholesale Asian Produces Since 1998</h2>
+                <p>Manley Sales has been a trusted name in wholesale Asian produce distribution for over 25 years. We pride ourselves on delivering the freshest fruits and vegetables to retailers across the region.</p>
+                <p>Our extensive network of local and international suppliers ensures consistent quality and availability of both common and specialty Asian produce items.</p>
+                <div class="about-features">
+                    <div class="about-feature-item">
+                        <div class="about-feature-icon">✓</div>
+                        <div class="about-feature-text">25+ Years Experience</div>
+                    </div>
+                    <div class="about-feature-item">
+                        <div class="about-feature-icon">✓</div>
+                        <div class="about-feature-text">Farm-Direct Sourcing</div>
+                    </div>
+                    <div class="about-feature-item">
+                        <div class="about-feature-icon">✓</div>
+                        <div class="about-feature-text">Daily Fresh Delivery</div>
+                    </div>
+                    <div class="about-feature-item">
+                        <div class="about-feature-icon">✓</div>
+                        <div class="about-feature-text">Quality Guaranteed</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image slide-in-right">
+                <img src="Pictures/Extra/about image.avif" alt="Fresh Produce Market">
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-badge">What We Offer</span>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive wholesale solutions tailored for retail success</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">🚚</div>
+                    <h3 class="service-title">Fast Delivery</h3>
+                    <p class="service-description">Daily deliveries to ensure your shelves are always stocked with fresh produce. Same-day delivery available for orders placed before noon.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">✅</div>
+                    <h3 class="service-title">Quality Assurance</h3>
+                    <p class="service-description">Every item is hand-inspected before delivery. We guarantee the freshness and quality of all our products or your money back.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">💰</div>
+                    <h3 class="service-title">Competitive Pricing</h3>
+                    <p class="service-description">Volume discounts and flexible payment terms. We work with you to maximize your profit margins while maintaining quality.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🌍</div>
+                    <h3 class="service-title">Global Sourcing</h3>
+                    <p class="service-description">Access to exotic and specialty produce from around the world. We source the best products from trusted international suppliers.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📞</div>
+                    <h3 class="service-title">Dedicated Support</h3>
+                    <p class="service-description">Personal account managers available to assist with orders, special requests, and any concerns. Your success is our priority.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📦</div>
+                    <h3 class="service-title">Custom Orders</h3>
+                    <p class="service-description">Need something specific? We can source specialty items and accommodate custom order requests to meet your unique needs.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-content fade-in">
+                <h2 class="cta-title">Send Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                    <div class="form-success" id="formSuccess">✓ Message sent successfully! We'll get back to you soon.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">MANLEY SALES</div>
+                <p>Your trusted wholesale partner for premium Asian and conventional produce since 1998. Quality, freshness, and reliability delivered daily.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Products</h3>
+                <a href="#">Exotic Fruits</a>
+                <a href="#">Asian Vegetables</a>
+                <a href="#">Citrus Fruits</a>
+                <a href="#">Root Vegetables</a>
+                <a href="#">Squashes</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <div class="footer-contact-item">
+                    <span class="footer-contact-icon">📍</span>
+                    <p>330 Middlefield Road, Scarborough, Ontario, Canada</p>
+                </div>
+                <div class="footer-contact-item">
+                    <span class="footer-contact-icon">📞</span>
+                    <p>(416) 555-FRESH</p>
+                </div>
+                <div class="footer-contact-item">
+                    <span class="footer-contact-icon">✉️</span>
+                    <p>info@manleysales.ca</p>
+                </div>
+                <div class="footer-contact-item">
+                    <span class="footer-contact-icon">⏰</span>
+                    <p>Mon-Sat: 6AM - 6PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Manley Sales. Only Design rights reserved. | Designed by <span><a href="https://bhattaraisudip.com.np/" class="sudip_name">Sudip Bhattarai</a></span>.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
