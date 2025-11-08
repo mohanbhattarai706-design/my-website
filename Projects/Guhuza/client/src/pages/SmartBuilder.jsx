@@ -53,7 +53,7 @@ const SmartBuilder = () => {
     setIsAnalyzing(true);
     
     try {
-      const response = await axios.post('http://localhost:5000/api/analyze/smart-builder', formData);
+      const response = await axios.post('${API_URL}/api/analyze/smart-builder', formData);
       
       if (response.data.success) {
         setAnalysisResult(response.data.analysis);
@@ -85,7 +85,7 @@ const SmartBuilder = () => {
         status: postingData.saveAs === 'draft' ? 'draft' : 'active'
       };
 
-      const response = await axios.post('http://localhost:5000/api/jobs', jobData);
+      const response = await axios.post('${API_URL}/api/jobs', jobData);
       
       if (response.data.success) {
         toast.success('Job posted successfully!');
@@ -280,3 +280,4 @@ const SmartBuilder = () => {
 
 
 export default SmartBuilder;
+
