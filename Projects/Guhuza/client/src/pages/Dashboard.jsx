@@ -29,7 +29,7 @@ const Dashboard = () => {
   const fetchJobs = async () => {
     setIsLoading(true);
     try {
-      const response = await axios.get(`http://localhost:5000/api/jobs?email=${userEmail}`);
+      const response = await axios.get(`${API_URL}/api/jobs?email=${userEmail}`);
       
       if (response.data.success) {
         setJobs(response.data.jobs);
@@ -48,7 +48,7 @@ const Dashboard = () => {
     }
 
     try {
-      const response = await axios.delete(`http://localhost:5000/api/jobs/${jobId}`);
+      const response = await axios.delete(`${API_URL}/api/jobs/${jobId}`);
       
       if (response.data.success) {
         toast.success('Job deleted successfully');
@@ -586,3 +586,4 @@ const Dashboard = () => {
 
 
 export default Dashboard;
+
