@@ -6,6 +6,7 @@ import axios from 'axios';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import AnalysisResults from '../components/AnalysisResults';
+import API_URL from '../src/api';
 
 const ManualEntry = () => {
   const navigate = useNavigate();
@@ -768,5 +769,6 @@ Please create an improved, professional job description that incorporates all th
     </div>
   );
 };
+
 
 export default ManualEntry;
