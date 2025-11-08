@@ -6,6 +6,7 @@ import axios from 'axios';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import AnalysisResults from '../components/AnalysisResults';
+import API_URL from '../src/api';
 
 const SmartBuilder = () => {
   const navigate = useNavigate();
@@ -276,5 +277,6 @@ const SmartBuilder = () => {
     </div>
   );
 };
+
 
 export default SmartBuilder;
