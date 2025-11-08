@@ -83,7 +83,7 @@ const ManualEntry = () => {
       const formData = new FormData();
       formData.append('file', file);
 
-      const response = await axios.post('http://localhost:5000/api/analyze/file-upload', formData, {
+      const response = await axios.post('${API_URL}/api/analyze/file-upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
@@ -139,7 +139,7 @@ ${appliedSuggestionsList.map((s, i) => `${i + 1}. ${s.text} - ${s.suggestedText 
 Please create an improved, professional job description that incorporates all these suggestions. Return a structured format with clear sections.
 `;
 
-      const response = await axios.post('http://localhost:5000/api/analyze/regenerate-jd', {
+      const response = await axios.post('${API_URL}/api/analyze/regenerate-jd', {
         originalText: originalText,
         appliedSuggestions: appliedSuggestionsList,
         improvementPrompt: improvementPrompt
@@ -151,7 +151,7 @@ Please create an improved, professional job description that incorporates all th
         // NEW: Re-analyze the improved JD
         const improvedText = response.data.improvedJD.fullText || JSON.stringify(response.data.improvedJD);
         
-        const reanalysisResponse = await axios.post('http://localhost:5000/api/analyze/manual-entry', {
+        const reanalysisResponse = await axios.post('${API_URL}/api/analyze/manual-entry', {
           jdText: improvedText
         });
         
@@ -292,7 +292,7 @@ Please create an improved, professional job description that incorporates all th
         employmentType: postingData.employmentType || 'Not specified'
       };
 
-      const response = await axios.post('http://localhost:5000/api/jobs', jobData);
+      const response = await axios.post('${API_URL}/api/jobs', jobData);
       
       if (response.data.success) {
         toast.success('Job posted successfully!');
@@ -772,3 +772,4 @@ Please create an improved, professional job description that incorporates all th
 
 
 export default ManualEntry;
+
