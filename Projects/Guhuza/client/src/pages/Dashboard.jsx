@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 import axios from 'axios';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import API_URL from '../src/api';
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -582,5 +583,6 @@ const Dashboard = () => {
     </div>
   );
 };
+
 
 export default Dashboard;
