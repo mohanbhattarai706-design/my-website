@@ -96,3 +96,11 @@ app.listen(PORT,'0.0.0.0', () => {
 
 });
 
+app.use(express.static(path.join(__dirname, '../client/build')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
+
+
+
+
