@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Projects/Guhuza/static/css/main.396b6859.css",
+    "main.js": "/Projects/Guhuza/static/js/main.547b7ef8.js",
+    "static/js/453.eb570f4f.chunk.js": "/Projects/Guhuza/static/js/453.eb570f4f.chunk.js",
+    "index.html": "/Projects/Guhuza/index.html",
+    "main.396b6859.css.map": "/Projects/Guhuza/static/css/main.396b6859.css.map",
+    "main.547b7ef8.js.map": "/Projects/Guhuza/static/js/main.547b7ef8.js.map",
+    "453.eb570f4f.chunk.js.map": "/Projects/Guhuza/static/js/453.eb570f4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.396b6859.css",
+    "static/js/main.547b7ef8.js"
+  ]
+}
