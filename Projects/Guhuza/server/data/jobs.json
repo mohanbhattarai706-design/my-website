@@ -1,0 +1,1503 @@
+[
+  {
+    "id": "1760461069701",
+    "jobTitle": "Senior Software Developer",
+    "location": "Toronto",
+    "workCondition": "On-site",
+    "employmentType": "Full-time",
+    "responsibilities": [
+      "Design, develop, and maintain server-side applications",
+      "Collaborate with cross-functional teams to define, design, and ship new features",
+      "Troubleshoot and resolve software defects and performance issues",
+      "Participate in code reviews and mentor junior developers",
+      "Stay up-to-date with emerging technologies and industry trends"
+    ],
+    "minimumRequirement": "C#",
+    "preferredSkills": "python",
+    "requirements": "Dental beneft. Company name - XYZ company",
+    "email": "employer@guhuza.com",
+    "title": "Senior Software Developer",
+    "summary": "We are seeking a skilled Senior Software Developer to join our dynamic team in Toronto. The ideal candidate will be responsible for managing server-side applications and contributing to the development of innovative software solutions.",
+    "minimumQualifications": [
+      "Bachelor's degree in Computer Science or related field",
+      "5+ years of experience in software development",
+      "Strong proficiency in C# and .NET framework",
+      "Experience with database management and server architecture",
+      "Strong knowledge of Java."
+    ],
+    "preferredQualifications": [
+      "Familiarity with Python programming language",
+      "Experience with cloud services such as AWS or Azure",
+      "Knowledge of Agile development methodologies"
+    ],
+    "workingConditions": "This is a full-time, on-site position based in Toronto.",
+    "benefits": "We offer competitive salaries, comprehensive health benefits, and opportunities for professional development.",
+    "analysis": {
+      "generatedJD": {
+        "title": "Senior Software Developer",
+        "summary": "We are seeking a skilled Senior Software Developer to join our dynamic team in Toronto. The ideal candidate will be responsible for managing server-side applications and contributing to the development of innovative software solutions.",
+        "responsibilities": [
+          "Design, develop, and maintain server-side applications",
+          "Collaborate with cross-functional teams to define, design, and ship new features",
+          "Troubleshoot and resolve software defects and performance issues",
+          "Participate in code reviews and mentor junior developers",
+          "Stay up-to-date with emerging technologies and industry trends"
+        ],
+        "minimumQualifications": [
+          "Bachelor's degree in Computer Science or related field",
+          "5+ years of experience in software development",
+          "Strong proficiency in C# and .NET framework",
+          "Experience with database management and server architecture",
+          "Strong knowledge of Java."
+        ],
+        "preferredQualifications": [
+          "Familiarity with Python programming language",
+          "Experience with cloud services such as AWS or Azure",
+          "Knowledge of Agile development methodologies"
+        ],
+        "workingConditions": "This is a full-time, on-site position based in Toronto.",
+        "benefits": "We offer competitive salaries, comprehensive health benefits, and opportunities for professional development."
+      },
+      "overallScore": 85,
+      "categoryScores": {
+        "jobTitle": 9,
+        "roleSummary": 8,
+        "reportingStructure": 7,
+        "responsibilities": 8,
+        "qualifications": 8,
+        "companyCulture": 7,
+        "benefits": 7,
+        "workingConditions": 8,
+        "languageClarity": 9,
+        "biasCompliance": 10
+      },
+      "suggestions": {
+        "critical": [],
+        "recommended": [
+          {
+            "text": "Add more details about company culture",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "Include information about team dynamics and values.",
+            "reasoning": "This helps candidates understand the work environment and fit."
+          }
+        ],
+        "niceToHave": []
+      },
+      "matchabilityHints": {
+        "titleClarity": "good",
+        "skillsCoverage": "good",
+        "locationSpecificity": "good",
+        "seniorityLevel": "clear"
+      }
+    },
+    "type": "smart-builder",
+    "createdAt": "2025-10-14T16:57:49.701Z",
+    "status": "active"
+  },
+  {
+    "id": "1760461196684",
+    "email": "employer@guhuza.com",
+    "jobTitle": "Manual Entry Job",
+    "jobDescription": "We are seeking for Senior Software Developer in XYZ company. .........",
+    "analysis": {
+      "overallScore": 65,
+      "categoryScores": {
+        "jobTitle": 6,
+        "roleSummary": 5,
+        "reportingStructure": 5,
+        "responsibilities": 6,
+        "qualifications": 6,
+        "companyCulture": 5,
+        "benefits": 5,
+        "workingConditions": 6,
+        "languageClarity": 7,
+        "biasCompliance": 8
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "Job title lacks specificity",
+            "category": "jobTitle",
+            "action": "fix",
+            "currentText": "Senior Software Developer",
+            "suggestedText": "Senior Software Developer - [specific technology or domain]",
+            "reasoning": "Adding specificity can attract more relevant candidates."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "Add a summary of the role",
+            "category": "roleSummary",
+            "action": "add",
+            "suggestedText": "Include a brief overview of the team's goals and the impact of the role.",
+            "reasoning": "This helps candidates understand the importance of the position."
+          }
+        ],
+        "niceToHave": []
+      },
+      "matchabilityHints": {
+        "titleClarity": "needs_improvement",
+        "skillsCoverage": "partial",
+        "locationSpecificity": "needs_improvement",
+        "seniorityLevel": "clear"
+      },
+      "summary": "The job description needs more specificity and clarity to attract suitable candidates."
+    },
+    "type": "manual-entry",
+    "createdAt": "2025-10-14T16:59:56.684Z",
+    "status": "active"
+  },
+  {
+    "id": "1760504303252",
+    "email": "employer@guhuza.com",
+    "jobTitle": "Sushi Chef**",
+    "jobDescription": "**Job Title: Sushi Chef**\n\n**Company: XYZ Hotel**\n\n**Location:** [Insert Location]\n\n---\n\n**Role Summary:**\n\nThe Sushi Chef at XYZ Hotel plays a vital role in our culinary team, responsible for creating high-quality sushi dishes that delight our guests. This position requires a passion for Japanese cuisine, a keen eye for detail, and the ability to work efficiently in a fast-paced kitchen environment. As a Sushi Chef, you will contribute to our hotel's reputation for excellence in dining, ensuring that every dish meets our high standards of quality and presentation.\n\n---\n\n**Key Responsibilities:**\n\n- **Sushi Preparation:** Skillfully prepare a variety of sushi dishes, including nigiri, sashimi, and rolls, using fresh ingredients and traditional techniques.\n- **Ingredient Management:** Select and source high-quality fish and produce, ensuring freshness and adherence to food safety standards.\n- **Kitchen Collaboration:** Work closely with other kitchen staff to coordinate meal preparation and ensure timely service during peak hours.\n- **Cleanliness and Organization:** Maintain a clean and organized workstation, adhering to health and safety regulations, and ensuring all kitchen equipment is properly sanitized.\n- **Menu Development:** Collaborate with the Head Chef to innovate and develop sushi menu items that align with seasonal trends and guest preferences.\n- **Guest Interaction:** Engage with guests when necessary to enhance their dining experience and provide insights into sushi preparation and ingredients.\n\n---\n\n**Company Culture:**\n\nAt XYZ Hotel, we pride ourselves on fostering a collaborative and inclusive work environment that values creativity and teamwork. Our commitment to excellence is reflected in our dedication to providing exceptional service to our guests. We believe in continuous learning and professional development, encouraging our staff to grow their culinary skills and explore new culinary trends. Join us to be a part of a dynamic team that celebrates innovation and quality in every dish we serve.\n\n---\n\n**Qualifications:**\n\n- Proven experience as a Sushi Chef or in a similar role within a high-volume kitchen.\n- Strong knowledge of sushi preparation techniques and food safety practices.\n- Ability to work well under pressure and maintain a positive attitude in a fast-paced environment.\n- Excellent communication and teamwork skills.\n- Culinary degree or relevant certification is preferred.\n\n---\n\n**How to Apply:**\n\nInterested candidates are invited to submit their resume and a cover letter detailing their relevant experience and passion for sushi cuisine to [Insert Application Email/Link]. We look forward to welcoming you to our culinary team at XYZ Hotel!\n\n---\n\n**XYZ Hotel is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.**",
+    "analysis": {
+      "overallScore": 45,
+      "categoryScores": {
+        "jobTitle": 6,
+        "roleSummary": 4,
+        "reportingStructure": 3,
+        "responsibilities": 5,
+        "qualifications": 4,
+        "companyCulture": 3,
+        "benefits": 2,
+        "workingConditions": 5,
+        "languageClarity": 6,
+        "biasCompliance": 7
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "job title specificity",
+            "category": "jobTitle",
+            "action": "fix",
+            "currentText": "sushi cook",
+            "suggestedText": "Sushi Chef",
+            "reasoning": "A more professional title can attract qualified candidates."
+          },
+          {
+            "text": "role summary detail",
+            "category": "roleSummary",
+            "action": "add",
+            "currentText": "",
+            "suggestedText": "Provide a brief overview of the role and its importance in the kitchen.",
+            "reasoning": "This helps candidates understand the job's significance."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "responsibilities detail",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "List specific tasks such as preparing sushi, maintaining cleanliness, and collaborating with other kitchen staff.",
+            "reasoning": "Clear responsibilities help candidates assess their fit for the role."
+          }
+        ],
+        "niceToHave": [
+          {
+            "text": "company culture insight",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "Include information about the hotel's values and work environment.",
+            "reasoning": "This can attract candidates who align with your culture."
+          }
+        ]
+      },
+      "matchabilityHints": {
+        "titleClarity": "needs_improvement",
+        "skillsCoverage": "partial",
+        "locationSpecificity": "good",
+        "seniorityLevel": "unclear"
+      },
+      "summary": "The job description lacks detail and clarity, making it difficult for potential candidates to understand the role and its requirements."
+    },
+    "editedJD": {
+      "title": "Sushi Chef**",
+      "fullText": "**Job Title: Sushi Chef**\n\n**Company: XYZ Hotel**\n\n**Location:** [Insert Location]\n\n---\n\n**Role Summary:**\n\nThe Sushi Chef at XYZ Hotel plays a vital role in our culinary team, responsible for creating high-quality sushi dishes that delight our guests. This position requires a passion for Japanese cuisine, a keen eye for detail, and the ability to work efficiently in a fast-paced kitchen environment. As a Sushi Chef, you will contribute to our hotel's reputation for excellence in dining, ensuring that every dish meets our high standards of quality and presentation.\n\n---\n\n**Key Responsibilities:**\n\n- **Sushi Preparation:** Skillfully prepare a variety of sushi dishes, including nigiri, sashimi, and rolls, using fresh ingredients and traditional techniques.\n- **Ingredient Management:** Select and source high-quality fish and produce, ensuring freshness and adherence to food safety standards.\n- **Kitchen Collaboration:** Work closely with other kitchen staff to coordinate meal preparation and ensure timely service during peak hours.\n- **Cleanliness and Organization:** Maintain a clean and organized workstation, adhering to health and safety regulations, and ensuring all kitchen equipment is properly sanitized.\n- **Menu Development:** Collaborate with the Head Chef to innovate and develop sushi menu items that align with seasonal trends and guest preferences.\n- **Guest Interaction:** Engage with guests when necessary to enhance their dining experience and provide insights into sushi preparation and ingredients.\n\n---\n\n**Company Culture:**\n\nAt XYZ Hotel, we pride ourselves on fostering a collaborative and inclusive work environment that values creativity and teamwork. Our commitment to excellence is reflected in our dedication to providing exceptional service to our guests. We believe in continuous learning and professional development, encouraging our staff to grow their culinary skills and explore new culinary trends. Join us to be a part of a dynamic team that celebrates innovation and quality in every dish we serve.\n\n---\n\n**Qualifications:**\n\n- Proven experience as a Sushi Chef or in a similar role within a high-volume kitchen.\n- Strong knowledge of sushi preparation techniques and food safety practices.\n- Ability to work well under pressure and maintain a positive attitude in a fast-paced environment.\n- Excellent communication and teamwork skills.\n- Culinary degree or relevant certification is preferred.\n\n---\n\n**How to Apply:**\n\nInterested candidates are invited to submit their resume and a cover letter detailing their relevant experience and passion for sushi cuisine to [Insert Application Email/Link]. We look forward to welcoming you to our culinary team at XYZ Hotel!\n\n---\n\n**XYZ Hotel is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.**",
+      "summary": "This is an improved version with AI suggestions applied.",
+      "responsibilities": [
+        "**Sushi Preparation:** Skillfully prepare a variety of sushi dishes, including nigiri, sashimi, and rolls, using fresh ingredients and traditional techniques.",
+        "**Ingredient Management:** Select and source high-quality fish and produce, ensuring freshness and adherence to food safety standards.",
+        "**Kitchen Collaboration:** Work closely with other kitchen staff to coordinate meal preparation and ensure timely service during peak hours.",
+        "**Cleanliness and Organization:** Maintain a clean and organized workstation, adhering to health and safety regulations, and ensuring all kitchen equipment is properly sanitized.",
+        "**Menu Development:** Collaborate with the Head Chef to innovate and develop sushi menu items that align with seasonal trends and guest preferences.",
+        "**Guest Interaction:** Engage with guests when necessary to enhance their dining experience and provide insights into sushi preparation and ingredients."
+      ],
+      "qualifications": [
+        "Proven experience as a Sushi Chef or in a similar role within a high-volume kitchen.",
+        "Strong knowledge of sushi preparation techniques and food safety practices.",
+        "Ability to work well under pressure and maintain a positive attitude in a fast-paced environment.",
+        "Excellent communication and teamwork skills.",
+        "Culinary degree or relevant certification is preferred."
+      ],
+      "benefits": null,
+      "workingConditions": null
+    },
+    "type": "manual-entry",
+    "locationRadius": "25",
+    "status": "active",
+    "location": "Not specified",
+    "workCondition": "Not specified",
+    "employmentType": "Not specified",
+    "createdAt": "2025-10-15T04:58:23.252Z"
+  },
+  {
+    "id": "1760550215175",
+    "jobTitle": "Senior Software Developer",
+    "location": "Toronto",
+    "workCondition": "On-site",
+    "employmentType": "Full-time",
+    "responsibilities": [
+      "Design, develop, and maintain server-side applications using C#.",
+      "Collaborate with front-end developers to integrate user-facing elements with server-side logic.",
+      "Optimize applications for maximum speed and scalability.",
+      "Troubleshoot and debug applications to improve performance.",
+      "Participate in code reviews and provide constructive feedback to team members."
+    ],
+    "minimumRequirement": "C#",
+    "preferredSkills": "Java",
+    "requirements": "",
+    "email": "employer@guhuza.com",
+    "title": "Senior Software Developer",
+    "summary": "We are seeking a highly skilled Senior Software Developer to join our dynamic team in Toronto. The ideal candidate will be responsible for developing and maintaining server-side applications, ensuring high performance and responsiveness to requests from the front-end.",
+    "minimumQualifications": [
+      "Bachelor's degree in Computer Science or related field.",
+      "5+ years of experience in software development with a focus on C#.",
+      "Strong understanding of server-side programming and architecture.",
+      "Experience with version control systems, such as Git."
+    ],
+    "preferredQualifications": [
+      "Familiarity with Java programming language.",
+      "Experience with cloud services (AWS, Azure, etc.).",
+      "Knowledge of database management systems and SQL."
+    ],
+    "workingConditions": "This is a full-time, on-site position based in Toronto, requiring collaboration with team members in a dynamic office environment.",
+    "benefits": "We offer a competitive salary, comprehensive health benefits, professional development opportunities, and a collaborative work culture.",
+    "analysis": {
+      "generatedJD": {
+        "title": "Senior Software Developer",
+        "summary": "We are seeking a highly skilled Senior Software Developer to join our dynamic team in Toronto. The ideal candidate will be responsible for developing and maintaining server-side applications, ensuring high performance and responsiveness to requests from the front-end.",
+        "responsibilities": [
+          "Design, develop, and maintain server-side applications using C#.",
+          "Collaborate with front-end developers to integrate user-facing elements with server-side logic.",
+          "Optimize applications for maximum speed and scalability.",
+          "Troubleshoot and debug applications to improve performance.",
+          "Participate in code reviews and provide constructive feedback to team members."
+        ],
+        "minimumQualifications": [
+          "Bachelor's degree in Computer Science or related field.",
+          "5+ years of experience in software development with a focus on C#.",
+          "Strong understanding of server-side programming and architecture.",
+          "Experience with version control systems, such as Git."
+        ],
+        "preferredQualifications": [
+          "Familiarity with Java programming language.",
+          "Experience with cloud services (AWS, Azure, etc.).",
+          "Knowledge of database management systems and SQL."
+        ],
+        "workingConditions": "This is a full-time, on-site position based in Toronto, requiring collaboration with team members in a dynamic office environment.",
+        "benefits": "We offer a competitive salary, comprehensive health benefits, professional development opportunities, and a collaborative work culture."
+      },
+      "overallScore": 88,
+      "categoryScores": {
+        "jobTitle": 9,
+        "roleSummary": 8,
+        "reportingStructure": 7,
+        "responsibilities": 9,
+        "qualifications": 8,
+        "companyCulture": 8,
+        "benefits": 8,
+        "workingConditions": 9,
+        "languageClarity": 9,
+        "biasCompliance": 10
+      },
+      "suggestions": {
+        "critical": [],
+        "recommended": [
+          {
+            "text": "Add specific technologies used in the company.",
+            "category": "general",
+            "action": "add",
+            "suggestedText": "Include technologies such as .NET, SQL Server, etc.",
+            "reasoning": "This helps candidates understand the tech stack they will be working with."
+          }
+        ],
+        "niceToHave": []
+      },
+      "matchabilityHints": {
+        "titleClarity": "good",
+        "skillsCoverage": "good",
+        "locationSpecificity": "good",
+        "seniorityLevel": "clear"
+      }
+    },
+    "type": "smart-builder",
+    "createdAt": "2025-10-15T17:43:35.175Z",
+    "status": "active"
+  },
+  {
+    "id": "1760550323882",
+    "email": "employer@guhuza.com",
+    "jobTitle": "Sushi Chef**",
+    "jobDescription": "**Job Title: Sushi Chef**\n\n**Location:** [Insert Location]\n\n**Company:** [Insert Company Name]\n\n**About Us:**  \n[Insert a brief description of the company, its culture, and its mission. Highlight any unique aspects of the sushi restaurant that may attract potential candidates.]\n\n---\n\n**Job Summary:**  \nWe are seeking a skilled and passionate Sushi Chef to join our culinary team. The ideal candidate will have a deep understanding of sushi preparation techniques, a commitment to quality, and a creative flair for presenting dishes. This role requires a strong attention to detail and the ability to work in a fast-paced environment while maintaining high standards of food safety and hygiene.\n\n---\n\n**Key Responsibilities:**\n\n- **Sushi Preparation:**  \n  - Prepare a variety of sushi, including nigiri, sashimi, and maki rolls, using traditional techniques and high-quality ingredients.\n  - Master the art of rice preparation, ensuring the perfect texture and flavor for sushi rice.\n  - Select and prepare fresh fish and seafood, adhering to safety and quality standards.\n\n- **Menu Development:**  \n  - Collaborate with the head chef to create innovative sushi dishes and seasonal specials that align with customer preferences and trends.\n  - Experiment with new ingredients and techniques to enhance the sushi menu.\n\n- **Quality Control:**  \n  - Maintain high standards of food quality and presentation, ensuring that all dishes meet the restaurant's specifications.\n  - Conduct regular inspections of food products, ensuring freshness and compliance with health regulations.\n\n- **Kitchen Management:**  \n  - Assist in managing kitchen operations, including inventory control, ordering supplies, and maintaining cleanliness.\n  - Train and mentor junior kitchen staff in sushi preparation and presentation techniques.\n\n- **Customer Interaction:**  \n  - Engage with customers to provide information about sushi dishes, ingredients, and preparation methods.\n  - Address customer feedback and make adjustments to enhance the dining experience.\n\n---\n\n**Qualifications:**\n\n- Proven experience as a Sushi Chef or similar role in a reputable sushi restaurant.\n- In-depth knowledge of sushi preparation techniques and ingredients.\n- Familiarity with food safety and sanitation regulations.\n- Strong knife skills and attention to detail.\n- Ability to work efficiently in a fast-paced environment.\n- Excellent communication and teamwork skills.\n- Culinary degree or relevant certification is a plus.\n\n---\n\n**What We Offer:**\n\n- Competitive salary and benefits package.\n- Opportunities for professional development and career advancement.\n- A dynamic and supportive work environment.\n- Employee discounts and perks.\n\n---\n\n**How to Apply:**  \nInterested candidates should submit their resume and a cover letter detailing their experience and passion for sushi preparation to [Insert Application Email/Link]. We look forward to welcoming a talented Sushi Chef to our team!\n\n---\n\n**[Insert Company Name] is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.**",
+    "analysis": {
+      "overallScore": 50,
+      "categoryScores": {
+        "jobTitle": 6,
+        "roleSummary": 5,
+        "reportingStructure": 4,
+        "responsibilities": 5,
+        "qualifications": 4,
+        "companyCulture": 5,
+        "benefits": 4,
+        "workingConditions": 5,
+        "languageClarity": 6,
+        "biasCompliance": 7
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "Job title lacks specificity",
+            "category": "jobTitle",
+            "action": "fix",
+            "currentText": "Cook",
+            "suggestedText": "Sushi Chef",
+            "reasoning": "A more specific title will attract candidates with relevant experience."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "Add detailed responsibilities",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "List specific cooking techniques and tasks involved in sushi preparation.",
+            "reasoning": "Providing clarity on responsibilities will help candidates understand the role better."
+          }
+        ],
+        "niceToHave": []
+      },
+      "matchabilityHints": {
+        "titleClarity": "needs_improvement",
+        "skillsCoverage": "partial",
+        "locationSpecificity": "needs_improvement",
+        "seniorityLevel": "unclear"
+      },
+      "summary": "The job description is very basic and lacks detail, making it difficult for potential candidates to assess their fit for the role."
+    },
+    "editedJD": {
+      "title": "Sushi Chef**",
+      "fullText": "**Job Title: Sushi Chef**\n\n**Location:** [Insert Location]\n\n**Company:** [Insert Company Name]\n\n**About Us:**  \n[Insert a brief description of the company, its culture, and its mission. Highlight any unique aspects of the sushi restaurant that may attract potential candidates.]\n\n---\n\n**Job Summary:**  \nWe are seeking a skilled and passionate Sushi Chef to join our culinary team. The ideal candidate will have a deep understanding of sushi preparation techniques, a commitment to quality, and a creative flair for presenting dishes. This role requires a strong attention to detail and the ability to work in a fast-paced environment while maintaining high standards of food safety and hygiene.\n\n---\n\n**Key Responsibilities:**\n\n- **Sushi Preparation:**  \n  - Prepare a variety of sushi, including nigiri, sashimi, and maki rolls, using traditional techniques and high-quality ingredients.\n  - Master the art of rice preparation, ensuring the perfect texture and flavor for sushi rice.\n  - Select and prepare fresh fish and seafood, adhering to safety and quality standards.\n\n- **Menu Development:**  \n  - Collaborate with the head chef to create innovative sushi dishes and seasonal specials that align with customer preferences and trends.\n  - Experiment with new ingredients and techniques to enhance the sushi menu.\n\n- **Quality Control:**  \n  - Maintain high standards of food quality and presentation, ensuring that all dishes meet the restaurant's specifications.\n  - Conduct regular inspections of food products, ensuring freshness and compliance with health regulations.\n\n- **Kitchen Management:**  \n  - Assist in managing kitchen operations, including inventory control, ordering supplies, and maintaining cleanliness.\n  - Train and mentor junior kitchen staff in sushi preparation and presentation techniques.\n\n- **Customer Interaction:**  \n  - Engage with customers to provide information about sushi dishes, ingredients, and preparation methods.\n  - Address customer feedback and make adjustments to enhance the dining experience.\n\n---\n\n**Qualifications:**\n\n- Proven experience as a Sushi Chef or similar role in a reputable sushi restaurant.\n- In-depth knowledge of sushi preparation techniques and ingredients.\n- Familiarity with food safety and sanitation regulations.\n- Strong knife skills and attention to detail.\n- Ability to work efficiently in a fast-paced environment.\n- Excellent communication and teamwork skills.\n- Culinary degree or relevant certification is a plus.\n\n---\n\n**What We Offer:**\n\n- Competitive salary and benefits package.\n- Opportunities for professional development and career advancement.\n- A dynamic and supportive work environment.\n- Employee discounts and perks.\n\n---\n\n**How to Apply:**  \nInterested candidates should submit their resume and a cover letter detailing their experience and passion for sushi preparation to [Insert Application Email/Link]. We look forward to welcoming a talented Sushi Chef to our team!\n\n---\n\n**[Insert Company Name] is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.**",
+      "summary": "This is an improved version with AI suggestions applied.",
+      "responsibilities": [
+        "**Sushi Preparation:**",
+        "Prepare a variety of sushi, including nigiri, sashimi, and maki rolls, using traditional techniques and high-quality ingredients.",
+        "Master the art of rice preparation, ensuring the perfect texture and flavor for sushi rice.",
+        "Select and prepare fresh fish and seafood, adhering to safety and quality standards."
+      ],
+      "qualifications": [
+        "Proven experience as a Sushi Chef or similar role in a reputable sushi restaurant.",
+        "In-depth knowledge of sushi preparation techniques and ingredients.",
+        "Familiarity with food safety and sanitation regulations.",
+        "Strong knife skills and attention to detail.",
+        "Ability to work efficiently in a fast-paced environment.",
+        "Excellent communication and teamwork skills.",
+        "Culinary degree or relevant certification is a plus."
+      ],
+      "benefits": "- Opportunities for professional development and career advancement. - A dynamic and supportive work environment. - Employee discounts and perks.",
+      "workingConditions": null
+    },
+    "type": "manual-entry",
+    "locationRadius": "25",
+    "status": "active",
+    "location": "Not specified",
+    "workCondition": "Not specified",
+    "employmentType": "Not specified",
+    "createdAt": "2025-10-15T17:45:23.882Z"
+  },
+  {
+    "id": "1760550405523",
+    "email": "employer@guhuza.com",
+    "jobTitle": "Senior Forensic Accountant**",
+    "jobDescription": "**Job Title: Senior Forensic Accountant**  \n**Employer: The Fraud Finders**  \n**Location: 123 Main Street, Los Angeles, CA 12345**  \n**Phone: 333-333-3333**  \n**Email: fraudfinders@fraudfinders.com**  \n**Reports to: Judah Brown**  \n**Employment Type: Full-Time**  \n**Hours: 40 Hours per Week**  \n**Start Date: September 29, 2021**  \n\n---\n\n### **Company Overview**\n\nAt The Fraud Finders, we are dedicated to uncovering financial fraud and providing our clients with the highest level of forensic accounting services. Our team is composed of passionate professionals who thrive in a collaborative environment, grounded in integrity, transparency, and continuous improvement. We value diversity and foster a culture of respect, where every team member's contribution is recognized and valued. \n\n---\n\n### **Job Summary**\n\nWe are seeking a highly skilled **Senior Forensic Accountant** with a minimum of 5 years of experience in forensic accounting. The ideal candidate will possess a strong working knowledge of criminal justice and law enforcement, along with a commitment to delivering exceptional results in complex financial investigations.\n\n---\n\n### **Key Responsibilities**\n\n- Compile and analyze financial evidence to support investigations.\n- Communicate findings clearly and effectively to stakeholders, both verbally and in writing.\n- Develop and implement systems to streamline the collection and presentation of evidence.\n- Assist in legal proceedings, including the preparation of documentation and reports.\n- Testify as an expert witness in court as required.\n- Determine the value of assets and assess losses and damages.\n- Conduct thorough audits of financial documents to identify discrepancies.\n- Perform internal investigations to uncover fraudulent activities.\n\n---\n\n### **Qualifications and Requirements**\n\n- Bachelor’s degree in Accounting or a related field.\n- Minimum of 5 years of experience in forensic accounting.\n- CPA (Certified Public Accountant) or Certified Fraud Examiner (CFE) certification preferred.\n- Excellent research and analytical skills.\n- Strong communication and interpersonal skills.\n- Knowledge of criminal justice processes and law enforcement practices is preferred.\n- Proven investigative skills with attention to detail.\n\n---\n\n### **Benefits**\n\n- Competitive salary commensurate with experience.\n- Comprehensive health benefits, including medical, dental, and vision coverage.\n- 401(k) retirement plan with company match.\n- Generous paid time off, including vacation, sick leave, and holidays.\n- Opportunities for professional development and continuing education.\n- A collaborative and supportive work environment that encourages innovation and teamwork.\n\n---\n\n### **Application Process**\n\nInterested candidates are encouraged to submit their resume and a cover letter detailing their qualifications and experience to **fraudfinders@fraudfinders.com**. We look forward to welcoming a new member to our team who shares our commitment to excellence in forensic accounting.\n\n---\n\n**The Fraud Finders is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.**",
+    "analysis": {
+      "overallScore": 73,
+      "categoryScores": {
+        "jobTitle": 8,
+        "roleSummary": 6,
+        "reportingStructure": 7,
+        "responsibilities": 8,
+        "qualifications": 7,
+        "companyCulture": 5,
+        "benefits": 4,
+        "workingConditions": 7,
+        "languageClarity": 8,
+        "biasCompliance": 9
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "Job title is clear but could be more specific",
+            "category": "jobTitle",
+            "action": "fix",
+            "currentText": "FORENSIC ACCOUNTANT",
+            "suggestedText": "Senior Forensic Accountant",
+            "reasoning": "Adding 'Senior' clarifies the level of expertise required."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "Add more details about the company culture",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "Include information about team dynamics and values.",
+            "reasoning": "This will attract candidates who align with the company's values."
+          }
+        ],
+        "niceToHave": [
+          {
+            "text": "Include benefits information",
+            "category": "benefits",
+            "action": "add",
+            "suggestedText": "List health benefits, retirement plans, and other perks.",
+            "reasoning": "This can enhance the attractiveness of the position."
+          }
+        ]
+      },
+      "matchabilityHints": {
+        "titleClarity": "good",
+        "skillsCoverage": "good",
+        "locationSpecificity": "good",
+        "seniorityLevel": "clear"
+      },
+      "summary": "The job description is generally clear and covers essential responsibilities and qualifications, but it could benefit from more details on company culture and benefits."
+    },
+    "editedJD": {
+      "title": "Senior Forensic Accountant**",
+      "fullText": "**Job Title: Senior Forensic Accountant**  \n**Employer: The Fraud Finders**  \n**Location: 123 Main Street, Los Angeles, CA 12345**  \n**Phone: 333-333-3333**  \n**Email: fraudfinders@fraudfinders.com**  \n**Reports to: Judah Brown**  \n**Employment Type: Full-Time**  \n**Hours: 40 Hours per Week**  \n**Start Date: September 29, 2021**  \n\n---\n\n### **Company Overview**\n\nAt The Fraud Finders, we are dedicated to uncovering financial fraud and providing our clients with the highest level of forensic accounting services. Our team is composed of passionate professionals who thrive in a collaborative environment, grounded in integrity, transparency, and continuous improvement. We value diversity and foster a culture of respect, where every team member's contribution is recognized and valued. \n\n---\n\n### **Job Summary**\n\nWe are seeking a highly skilled **Senior Forensic Accountant** with a minimum of 5 years of experience in forensic accounting. The ideal candidate will possess a strong working knowledge of criminal justice and law enforcement, along with a commitment to delivering exceptional results in complex financial investigations.\n\n---\n\n### **Key Responsibilities**\n\n- Compile and analyze financial evidence to support investigations.\n- Communicate findings clearly and effectively to stakeholders, both verbally and in writing.\n- Develop and implement systems to streamline the collection and presentation of evidence.\n- Assist in legal proceedings, including the preparation of documentation and reports.\n- Testify as an expert witness in court as required.\n- Determine the value of assets and assess losses and damages.\n- Conduct thorough audits of financial documents to identify discrepancies.\n- Perform internal investigations to uncover fraudulent activities.\n\n---\n\n### **Qualifications and Requirements**\n\n- Bachelor’s degree in Accounting or a related field.\n- Minimum of 5 years of experience in forensic accounting.\n- CPA (Certified Public Accountant) or Certified Fraud Examiner (CFE) certification preferred.\n- Excellent research and analytical skills.\n- Strong communication and interpersonal skills.\n- Knowledge of criminal justice processes and law enforcement practices is preferred.\n- Proven investigative skills with attention to detail.\n\n---\n\n### **Benefits**\n\n- Competitive salary commensurate with experience.\n- Comprehensive health benefits, including medical, dental, and vision coverage.\n- 401(k) retirement plan with company match.\n- Generous paid time off, including vacation, sick leave, and holidays.\n- Opportunities for professional development and continuing education.\n- A collaborative and supportive work environment that encourages innovation and teamwork.\n\n---\n\n### **Application Process**\n\nInterested candidates are encouraged to submit their resume and a cover letter detailing their qualifications and experience to **fraudfinders@fraudfinders.com**. We look forward to welcoming a new member to our team who shares our commitment to excellence in forensic accounting.\n\n---\n\n**The Fraud Finders is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees.**",
+      "summary": "This is an improved version with AI suggestions applied.",
+      "responsibilities": [
+        "Compile and analyze financial evidence to support investigations.",
+        "Communicate findings clearly and effectively to stakeholders, both verbally and in writing.",
+        "Develop and implement systems to streamline the collection and presentation of evidence.",
+        "Assist in legal proceedings, including the preparation of documentation and reports.",
+        "Testify as an expert witness in court as required.",
+        "Determine the value of assets and assess losses and damages.",
+        "Conduct thorough audits of financial documents to identify discrepancies.",
+        "Perform internal investigations to uncover fraudulent activities."
+      ],
+      "qualifications": [
+        "Bachelor’s degree in Accounting or a related field.",
+        "Minimum of 5 years of experience in forensic accounting.",
+        "CPA (Certified Public Accountant) or Certified Fraud Examiner (CFE) certification preferred.",
+        "Excellent research and analytical skills.",
+        "Strong communication and interpersonal skills.",
+        "Knowledge of criminal justice processes and law enforcement practices is preferred.",
+        "Proven investigative skills with attention to detail."
+      ],
+      "benefits": "- Competitive salary commensurate with experience. - 401(k) retirement plan with company match. - Generous paid time off, including vacation, sick leave, and holidays. - Opportunities for professional development and continuing education. - A collaborative and supportive work environment that encourages innovation and teamwork.",
+      "workingConditions": "---"
+    },
+    "type": "manual-entry",
+    "locationRadius": "25",
+    "status": "active",
+    "location": "Not specified",
+    "workCondition": "Not specified",
+    "employmentType": "Not specified",
+    "createdAt": "2025-10-15T17:46:45.523Z"
+  },
+  {
+    "id": "1762580917897",
+    "email": "employer@guhuza.com",
+    "jobTitle": "Line Cook / Pastry Chef**",
+    "jobDescription": "**Job Title: Line Cook / Pastry Chef**\n\n**Location:** [Insert Location]  \n**Company:** [Insert Company Name]  \n**Reports To:** Head Chef  \n\n---\n\n**Role Summary:**  \nWe are seeking a skilled Line Cook or Pastry Chef to join our dynamic kitchen team. The ideal candidate will be responsible for preparing high-quality meals in a fast-paced environment, ensuring that each dish meets our standards of excellence. This position is crucial in maintaining the overall efficiency and quality of our kitchen operations.\n\n---\n\n**Key Responsibilities:**  \n- Prepare and cook menu items according to recipes and standards.  \n- Maintain kitchen cleanliness and organization, adhering to health and safety regulations.  \n- Assist in inventory management, including ordering and stocking supplies.  \n- Collaborate with the Head Chef and kitchen team to develop and implement menu items.  \n- Participate in daily kitchen operations, including food preparation and plating.  \n- Ensure proper food storage and handling to minimize waste and maintain freshness.  \n\n---\n\n**Qualifications:**  \n- Minimum of 2 years of cooking experience in a professional kitchen.  \n- Valid food safety certification.  \n- Strong understanding of various cuisines and cooking techniques.  \n\n---\n\n**Preferred Skills:**  \n- Knowledge of menu planning and recipe development.  \n- Ability to work efficiently in a fast-paced environment.  \n- Strong communication and teamwork skills.  \n\n---\n\n**Company Culture:**  \nAt [Insert Company Name], we foster a collaborative and creative kitchen environment where every team member's contribution is valued. We believe in the power of teamwork and innovation to deliver exceptional dining experiences.\n\n---\n\n**Benefits Offered:**  \n- Health insurance coverage.  \n- Paid time off and holidays.  \n- Employee discounts on meals and services.  \n- Opportunities for professional growth and advancement within the company.  \n\n---\n\n**Working Hours:**  \n- Flexible scheduling options available.  \n- Must be available to work evenings and weekends.  \n\n---\n\n**Opportunities for Advancement:**  \nWe provide clear pathways for career advancement, with opportunities to progress to sous chef or head chef positions based on performance and dedication.\n\n---\n\n**Diversity and Inclusion Statement:**  \n[Insert Company Name] is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. We encourage candidates from diverse backgrounds to apply.\n\n---\n\n**Training Programs:**  \nWe offer comprehensive training programs designed to enhance your culinary skills and knowledge, ensuring you stay at the forefront of industry trends.\n\n---\n\n**Team-Building Activities:**  \nTo foster camaraderie and teamwork, we organize regular team-building activities that strengthen our kitchen culture and enhance collaboration.\n\n---\n\n**Kitchen Equipment and Technology:**  \nOur kitchen is equipped with state-of-the-art appliances and technology, providing you with the tools necessary to excel in your culinary craft.\n\n---\n\n**Application Process:**  \nInterested candidates are encouraged to submit their resume and a cover letter detailing their relevant experience to [Insert Application Email/Link]. We look forward to welcoming a passionate cook to our team!\n\n--- \n\n**[Insert Company Name] is committed to providing a workplace that is free from discrimination and harassment.**",
+    "analysis": {
+      "overallScore": 78,
+      "categoryScores": {
+        "jobTitle": 8,
+        "roleSummary": 7,
+        "reportingStructure": 7,
+        "responsibilities": 8,
+        "qualifications": 7,
+        "companyCulture": 7,
+        "benefits": 7,
+        "workingConditions": 7,
+        "languageClarity": 8,
+        "biasCompliance": 9
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "Clarify job title",
+            "category": "jobTitle",
+            "action": "Specify if the position is primarily for a Line Cook or Pastry Chef.",
+            "currentText": "Line Cook / Pastry Chef",
+            "suggestedText": "Line Cook or Pastry Chef",
+            "reasoning": "This will help candidates understand the primary focus of the role."
+          },
+          {
+            "text": "Add specific culinary skills required",
+            "category": "qualifications",
+            "action": "List specific culinary skills or techniques that are essential.",
+            "currentText": "Strong understanding of various cuisines and cooking techniques.",
+            "suggestedText": "Proficiency in grilling, sautéing, baking, and pastry techniques.",
+            "reasoning": "This will attract candidates with the exact skills needed for the role."
+          },
+          {
+            "text": "Specify location",
+            "category": "locationSpecificity",
+            "action": "Insert the specific location of the job.",
+            "currentText": "[Insert Location]",
+            "suggestedText": "Downtown Chicago, IL",
+            "reasoning": "Candidates need to know the job location to assess commute and relocation."
+          },
+          {
+            "text": "Detail health and safety regulations",
+            "category": "responsibilities",
+            "action": "Expand on the specific health and safety regulations to be followed.",
+            "currentText": "Adhering to health and safety regulations.",
+            "suggestedText": "Following OSHA standards and local health department guidelines.",
+            "reasoning": "Providing specifics can help candidates understand the expectations better."
+          },
+          {
+            "text": "Clarify advancement opportunities",
+            "category": "opportunities for advancement",
+            "action": "Provide more details on the criteria for advancement.",
+            "currentText": "Opportunities to progress to sous chef or head chef positions based on performance and dedication.",
+            "suggestedText": "Advancement based on skill assessments, leadership potential, and contributions to menu development.",
+            "reasoning": "This will help candidates understand how they can grow within the company."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "Include a salary range",
+            "category": "benefits",
+            "action": "Provide a salary range for transparency.",
+            "currentText": "Not mentioned.",
+            "suggestedText": "$35,000 - $50,000 annually.",
+            "reasoning": "Candidates appreciate knowing the compensation upfront."
+          },
+          {
+            "text": "Highlight training program details",
+            "category": "training programs",
+            "action": "Provide specifics about the training programs offered.",
+            "currentText": "Comprehensive training programs designed to enhance your culinary skills.",
+            "suggestedText": "Training includes workshops on advanced cooking techniques and food safety certifications.",
+            "reasoning": "Candidates will be more attracted to roles that offer clear training paths."
+          },
+          {
+            "text": "Mention team size",
+            "category": "workingConditions",
+            "action": "Indicate the size of the kitchen team.",
+            "currentText": "Not mentioned.",
+            "suggestedText": "Join a team of 10 culinary professionals.",
+            "reasoning": "Candidates may want to know the team dynamics."
+          },
+          {
+            "text": "Specify work environment",
+            "category": "workingConditions",
+            "action": "Describe the kitchen environment more clearly.",
+            "currentText": "Fast-paced environment.",
+            "suggestedText": "High-energy kitchen with a focus on collaboration and creativity.",
+            "reasoning": "This helps candidates gauge if they fit the work culture."
+          },
+          {
+            "text": "Add information about employee recognition",
+            "category": "companyCulture",
+            "action": "Include how the company recognizes employee contributions.",
+            "currentText": "We believe in the power of teamwork.",
+            "suggestedText": "Regular recognition programs for outstanding performance.",
+            "reasoning": "Candidates appreciate knowing how their efforts will be acknowledged."
+          }
+        ],
+        "niceToHave": [
+          {
+            "text": "Include a mentorship program",
+            "category": "training programs",
+            "action": "Mention if there are mentorship opportunities.",
+            "currentText": "Not mentioned.",
+            "suggestedText": "Mentorship from experienced chefs available.",
+            "reasoning": "Mentorship can be a significant draw for candidates looking to grow."
+          },
+          {
+            "text": "List culinary competitions",
+            "category": "companyCulture",
+            "action": "Mention if the team participates in culinary competitions.",
+            "currentText": "Not mentioned.",
+            "suggestedText": "Participation in local and national culinary competitions encouraged.",
+            "reasoning": "This can attract competitive candidates who want to showcase their skills."
+          },
+          {
+            "text": "Offer flexible benefits",
+            "category": "benefits",
+            "action": "Include options for customizing benefits.",
+            "currentText": "Health insurance coverage.",
+            "suggestedText": "Flexible benefits package including health, dental, and vision options.",
+            "reasoning": "Flexibility in benefits can appeal to a wider range of candidates."
+          },
+          {
+            "text": "Highlight community involvement",
+            "category": "companyCulture",
+            "action": "Mention any community service initiatives.",
+            "currentText": "Not mentioned.",
+            "suggestedText": "Engagement in community service and charity events.",
+            "reasoning": "Candidates often appreciate working for socially responsible companies."
+          },
+          {
+            "text": "Provide information on work-life balance",
+            "category": "workingConditions",
+            "action": "Discuss how the company supports work-life balance.",
+            "currentText": "Must be available to work evenings and weekends.",
+            "suggestedText": "We promote work-life balance with flexible scheduling options.",
+            "reasoning": "This can attract candidates who value their personal time."
+          }
+        ]
+      },
+      "matchabilityHints": {
+        "titleClarity": "needs_improvement",
+        "skillsCoverage": "partial",
+        "locationSpecificity": "needs_improvement",
+        "seniorityLevel": "clear"
+      },
+      "summary": "The job description is generally well-structured and clear but could benefit from more specificity in certain areas such as job title clarity, qualifications, and location. Enhancements in benefits and company culture details would also improve attractiveness to potential candidates."
+    },
+    "editedJD": {
+      "title": "Line Cook / Pastry Chef**",
+      "fullText": "**Job Title: Line Cook / Pastry Chef**\n\n**Location:** [Insert Location]  \n**Company:** [Insert Company Name]  \n**Reports To:** Head Chef  \n\n---\n\n**Role Summary:**  \nWe are seeking a skilled Line Cook or Pastry Chef to join our dynamic kitchen team. The ideal candidate will be responsible for preparing high-quality meals in a fast-paced environment, ensuring that each dish meets our standards of excellence. This position is crucial in maintaining the overall efficiency and quality of our kitchen operations.\n\n---\n\n**Key Responsibilities:**  \n- Prepare and cook menu items according to recipes and standards.  \n- Maintain kitchen cleanliness and organization, adhering to health and safety regulations.  \n- Assist in inventory management, including ordering and stocking supplies.  \n- Collaborate with the Head Chef and kitchen team to develop and implement menu items.  \n- Participate in daily kitchen operations, including food preparation and plating.  \n- Ensure proper food storage and handling to minimize waste and maintain freshness.  \n\n---\n\n**Qualifications:**  \n- Minimum of 2 years of cooking experience in a professional kitchen.  \n- Valid food safety certification.  \n- Strong understanding of various cuisines and cooking techniques.  \n\n---\n\n**Preferred Skills:**  \n- Knowledge of menu planning and recipe development.  \n- Ability to work efficiently in a fast-paced environment.  \n- Strong communication and teamwork skills.  \n\n---\n\n**Company Culture:**  \nAt [Insert Company Name], we foster a collaborative and creative kitchen environment where every team member's contribution is valued. We believe in the power of teamwork and innovation to deliver exceptional dining experiences.\n\n---\n\n**Benefits Offered:**  \n- Health insurance coverage.  \n- Paid time off and holidays.  \n- Employee discounts on meals and services.  \n- Opportunities for professional growth and advancement within the company.  \n\n---\n\n**Working Hours:**  \n- Flexible scheduling options available.  \n- Must be available to work evenings and weekends.  \n\n---\n\n**Opportunities for Advancement:**  \nWe provide clear pathways for career advancement, with opportunities to progress to sous chef or head chef positions based on performance and dedication.\n\n---\n\n**Diversity and Inclusion Statement:**  \n[Insert Company Name] is an equal opportunity employer. We celebrate diversity and are committed to creating an inclusive environment for all employees. We encourage candidates from diverse backgrounds to apply.\n\n---\n\n**Training Programs:**  \nWe offer comprehensive training programs designed to enhance your culinary skills and knowledge, ensuring you stay at the forefront of industry trends.\n\n---\n\n**Team-Building Activities:**  \nTo foster camaraderie and teamwork, we organize regular team-building activities that strengthen our kitchen culture and enhance collaboration.\n\n---\n\n**Kitchen Equipment and Technology:**  \nOur kitchen is equipped with state-of-the-art appliances and technology, providing you with the tools necessary to excel in your culinary craft.\n\n---\n\n**Application Process:**  \nInterested candidates are encouraged to submit their resume and a cover letter detailing their relevant experience to [Insert Application Email/Link]. We look forward to welcoming a passionate cook to our team!\n\n--- \n\n**[Insert Company Name] is committed to providing a workplace that is free from discrimination and harassment.**",
+      "summary": "This is an improved version with AI suggestions applied.",
+      "responsibilities": [
+        "Prepare and cook menu items according to recipes and standards.",
+        "Maintain kitchen cleanliness and organization, adhering to health and safety regulations.",
+        "Assist in inventory management, including ordering and stocking supplies.",
+        "Collaborate with the Head Chef and kitchen team to develop and implement menu items.",
+        "Participate in daily kitchen operations, including food preparation and plating.",
+        "Ensure proper food storage and handling to minimize waste and maintain freshness."
+      ],
+      "qualifications": [
+        "Minimum of 2 years of cooking experience in a professional kitchen.",
+        "Valid food safety certification.",
+        "Strong understanding of various cuisines and cooking techniques."
+      ],
+      "benefits": "- Health insurance coverage. - Paid time off and holidays. - Employee discounts on meals and services. - Opportunities for professional growth and advancement within the company.",
+      "workingConditions": "- Flexible scheduling options available. - Must be available to work evenings and weekends."
+    },
+    "type": "manual-entry",
+    "locationRadius": "25",
+    "status": "active",
+    "location": "Not specified",
+    "workCondition": "Not specified",
+    "employmentType": "Not specified",
+    "createdAt": "2025-11-08T05:48:37.897Z"
+  },
+  {
+    "id": "1762850697725",
+    "jobTitle": "Senior Software Developer",
+    "location": "Toronto",
+    "workCondition": "Remote",
+    "employmentType": "Full-time",
+    "responsibilities": [
+      "Design, develop, and maintain scalable software applications.",
+      "Collaborate with cross-functional teams to define, design, and ship new features.",
+      "Troubleshoot and debug applications to optimize performance.",
+      "Participate in code reviews to maintain code quality and share knowledge.",
+      "Mentor junior developers and contribute to team growth.",
+      "Stay updated with emerging technologies and industry trends.",
+      "implement unit tests for code reliability"
+    ],
+    "minimumRequirement": "def",
+    "preferredSkills": "java",
+    "requirements": "xyz",
+    "email": "employer@guhuza.com",
+    "title": "Senior Software Developer",
+    "summary": "We are seeking a highly skilled Senior Software Developer to join our dynamic team in Toronto. This remote full-time position requires a passion for technology and a commitment to delivering high-quality software solutions.",
+    "minimumQualifications": [
+      "Bachelor's degree in Computer Science or a related field.",
+      "5+ years of experience in software development.",
+      "Strong proficiency in programming languages such as Java, C#, or Python.",
+      "Experience with web frameworks and RESTful APIs.",
+      "Solid understanding of software development methodologies and best practices."
+    ],
+    "preferredQualifications": [
+      "Experience with cloud platforms like AWS or Azure.",
+      "Familiarity with Agile methodologies.",
+      "Knowledge of database management systems such as SQL or NoSQL.",
+      "Experience with DevOps practices and CI/CD pipelines.",
+      "Strong problem-solving skills and attention to detail."
+    ],
+    "workingConditions": "This is a fully remote position with flexible working hours.",
+    "benefits": "We offer a competitive salary, comprehensive health benefits, and opportunities for professional development.",
+    "analysis": {
+      "generatedJD": {
+        "title": "Senior Software Developer",
+        "summary": "We are seeking a highly skilled Senior Software Developer to join our dynamic team in Toronto. This remote full-time position requires a passion for technology and a commitment to delivering high-quality software solutions.",
+        "responsibilities": [
+          "Design, develop, and maintain scalable software applications.",
+          "Collaborate with cross-functional teams to define, design, and ship new features.",
+          "Troubleshoot and debug applications to optimize performance.",
+          "Participate in code reviews to maintain code quality and share knowledge.",
+          "Mentor junior developers and contribute to team growth.",
+          "Stay updated with emerging technologies and industry trends.",
+          "implement unit tests for code reliability"
+        ],
+        "minimumQualifications": [
+          "Bachelor's degree in Computer Science or a related field.",
+          "5+ years of experience in software development.",
+          "Strong proficiency in programming languages such as Java, C#, or Python.",
+          "Experience with web frameworks and RESTful APIs.",
+          "Solid understanding of software development methodologies and best practices."
+        ],
+        "preferredQualifications": [
+          "Experience with cloud platforms like AWS or Azure.",
+          "Familiarity with Agile methodologies.",
+          "Knowledge of database management systems such as SQL or NoSQL.",
+          "Experience with DevOps practices and CI/CD pipelines.",
+          "Strong problem-solving skills and attention to detail."
+        ],
+        "workingConditions": "This is a fully remote position with flexible working hours.",
+        "benefits": "We offer a competitive salary, comprehensive health benefits, and opportunities for professional development."
+      },
+      "overallScore": 88,
+      "categoryScores": {
+        "jobTitle": 9,
+        "roleSummary": 8,
+        "reportingStructure": 7,
+        "responsibilities": 8,
+        "qualifications": 8,
+        "companyCulture": 7,
+        "benefits": 8,
+        "workingConditions": 9,
+        "languageClarity": 9,
+        "biasCompliance": 10
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "suggestion 1",
+            "category": "jobTitle",
+            "action": "fix",
+            "currentText": "Senior Software Developer",
+            "suggestedText": "Senior Software Engineer",
+            "reasoning": "aligns with industry standards."
+          },
+          {
+            "text": "suggestion 2",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "implement unit tests for code reliability",
+            "reasoning": "improves code quality."
+          },
+          {
+            "text": "suggestion 3",
+            "category": "qualifications",
+            "action": "fix",
+            "currentText": "strong proficiency in programming languages",
+            "suggestedText": "strong proficiency in Java and one additional language",
+            "reasoning": "increases candidate quality."
+          },
+          {
+            "text": "suggestion 4",
+            "category": "languageClarity",
+            "action": "fix",
+            "currentText": "stay updated with emerging technologies",
+            "suggestedText": "continuously learn and apply new technologies",
+            "reasoning": "better understanding."
+          },
+          {
+            "text": "suggestion 5",
+            "category": "biasCompliance",
+            "action": "fix",
+            "currentText": "must have",
+            "suggestedText": "required skills",
+            "reasoning": "ensures inclusivity."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "recommendation 1",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "conduct performance reviews",
+            "reasoning": "provides clarity."
+          },
+          {
+            "text": "recommendation 2",
+            "category": "qualifications",
+            "action": "add",
+            "suggestedText": "experience with microservices architecture",
+            "reasoning": "attracts qualified candidates."
+          },
+          {
+            "text": "recommendation 3",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "commitment to diversity and inclusion",
+            "reasoning": "helps with cultural fit."
+          },
+          {
+            "text": "recommendation 4",
+            "category": "benefits",
+            "action": "add",
+            "suggestedText": "remote work stipend",
+            "reasoning": "increases attractiveness."
+          },
+          {
+            "text": "recommendation 5",
+            "category": "workingConditions",
+            "action": "add",
+            "suggestedText": "team collaboration tools",
+            "reasoning": "sets clear expectations."
+          }
+        ],
+        "niceToHave": [
+          {
+            "text": "nice to have 1",
+            "category": "benefits",
+            "action": "add",
+            "suggestedText": "annual bonus structure",
+            "reasoning": "transparency increases applications."
+          },
+          {
+            "text": "nice to have 2",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "team-building activities",
+            "reasoning": "helps candidates envision role."
+          },
+          {
+            "text": "nice to have 3",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "participate in hackathons",
+            "reasoning": "attracts ambitious candidates."
+          },
+          {
+            "text": "nice to have 4",
+            "category": "qualifications",
+            "action": "add",
+            "suggestedText": "contributions to open-source projects",
+            "reasoning": "identifies top talent."
+          },
+          {
+            "text": "nice to have 5",
+            "category": "workingConditions",
+            "action": "add",
+            "suggestedText": "options for part-time work",
+            "reasoning": "improves work-life balance appeal."
+          }
+        ]
+      },
+      "matchabilityHints": {
+        "titleClarity": "good",
+        "skillsCoverage": "good",
+        "locationSpecificity": "good",
+        "seniorityLevel": "clear"
+      }
+    },
+    "type": "smart-builder",
+    "locationRadius": "25",
+    "status": "active",
+    "createdAt": "2025-11-11T08:44:57.725Z"
+  },
+  {
+    "id": "1762850881821",
+    "email": "employer@guhuza.com",
+    "jobTitle": "Junior Web Designer**",
+    "jobDescription": "**Job Title: Junior Web Designer**\n\n**Company Overview:**\nAt [Company Name], we are a dynamic and innovative digital agency dedicated to delivering exceptional web experiences for our clients. Our team thrives on creativity, collaboration, and a passion for design. We believe in fostering a supportive environment where every team member can grow and contribute to exciting projects.\n\n**Position Summary:**\nWe are seeking a talented and motivated Junior Web Designer to join our creative team. The ideal candidate will have at least 1 year of experience or a relevant portfolio showcasing their design skills. You will report directly to the Senior Web Designer and collaborate with a team of professionals to create visually stunning and user-friendly web solutions.\n\n**Key Responsibilities:**\n- Collaborate with the Senior Web Designer and other team members to conceptualize and design engaging web layouts and user interfaces.\n- Assist in the development of responsive web designs that align with client objectives and branding guidelines.\n- Create wireframes, mockups, and prototypes using design tools.\n- Participate in team brainstorming sessions and contribute innovative ideas to enhance design projects.\n- Maintain and update existing websites, ensuring they are visually appealing and functional.\n- Stay updated on industry trends and best practices in web design.\n\n**Required Qualifications:**\n- Minimum of 1 year of experience in web design or a strong portfolio demonstrating relevant skills.\n- Proficiency in Adobe Creative Suite (Photoshop, Illustrator), Sketch, or similar design tools.\n- Familiarity with HTML, CSS, and basic JavaScript is a plus.\n- Strong attention to detail and a keen eye for aesthetics.\n- Excellent communication and teamwork skills.\n\n**Working Hours and Flexibility:**\n- Flexible working hours with options for remote work to support work-life balance.\n\n**Salary Range:**\n- $40,000 - $50,000 per year, commensurate with experience.\n\n**Opportunities for Growth:**\n- We offer a clear path for career advancement, including opportunities for mentorship from senior team members and participation in professional development workshops.\n\n**Team Collaboration:**\n- Join a collaborative team of designers and developers who value input and creativity, working together to achieve project goals.\n\n**Unique Company Benefits:**\n- Competitive salary and benefits package.\n- Flexible work environment with remote work options.\n- Opportunities for skill development and training.\n- Regular team-building activities and social events.\n\n**Projects You Might Work On:**\n- Design and develop websites for a variety of clients across different industries.\n- Create landing pages for marketing campaigns.\n- Work on redesign projects to enhance user experience and interface.\n\n**Company Design Philosophy:**\n- We prioritize user-centered design, focusing on creating intuitive and visually appealing experiences that meet the needs of our clients and their audiences.\n\n**Team Size:**\n- Join a close-knit team of [number] designers and developers, fostering a collaborative and supportive work environment.\n\nIf you are passionate about web design and eager to grow your skills in a creative and dynamic setting, we would love to hear from you! Please submit your resume and portfolio to [contact information].\n\n**Application Deadline:**\n- [Insert deadline if applicable] \n\n[Company Name] is an equal opportunity employer and welcomes applicants from diverse backgrounds.",
+    "analysis": {
+      "overallScore": 76,
+      "categoryScores": {
+        "jobTitle": 8,
+        "roleSummary": 7,
+        "reportingStructure": 7,
+        "responsibilities": 8,
+        "qualifications": 7,
+        "companyCulture": 7,
+        "benefits": 7,
+        "workingConditions": 8,
+        "languageClarity": 8,
+        "biasCompliance": 9
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "Clarify the experience requirement",
+            "category": "qualifications",
+            "action": "Specify if the experience must be in a professional setting or if freelance work is acceptable.",
+            "currentText": "Minimum of 1 year of experience in web design or a strong portfolio demonstrating relevant skills.",
+            "suggestedText": "Minimum of 1 year of professional experience in web design or a strong portfolio demonstrating relevant skills, including freelance work.",
+            "reasoning": "This clarification will broaden the candidate pool and attract more applicants."
+          },
+          {
+            "text": "Include specific design tools required",
+            "category": "qualifications",
+            "action": "List all design tools that candidates should be proficient in.",
+            "currentText": "Proficiency in Adobe Creative Suite (Photoshop, Illustrator), Sketch, or similar design tools.",
+            "suggestedText": "Proficiency in Adobe Creative Suite (Photoshop, Illustrator), Sketch, Figma, or similar design tools.",
+            "reasoning": "Including Figma as a requirement reflects current industry standards and practices."
+          },
+          {
+            "text": "Define the team size",
+            "category": "companyCulture",
+            "action": "Provide a specific number for the team size to give candidates a better understanding of the work environment.",
+            "currentText": "Join a close-knit team of [number] designers and developers.",
+            "suggestedText": "Join a close-knit team of 5-10 designers and developers.",
+            "reasoning": "Specificity helps candidates gauge the collaborative nature of the team."
+          },
+          {
+            "text": "Add a deadline for applications",
+            "category": "application process",
+            "action": "Insert a specific application deadline to create urgency.",
+            "currentText": "Application Deadline: [Insert deadline if applicable]",
+            "suggestedText": "Application Deadline: [Insert specific date]",
+            "reasoning": "A deadline encourages timely applications and helps manage the hiring process."
+          },
+          {
+            "text": "Specify remote work policy",
+            "category": "workingConditions",
+            "action": "Clarify how remote work is structured (full-time, part-time, or hybrid).",
+            "currentText": "Flexible working hours with options for remote work to support work-life balance.",
+            "suggestedText": "Flexible working hours with options for full-time remote work or hybrid arrangements to support work-life balance.",
+            "reasoning": "Clarifying the remote work policy will attract candidates who prioritize flexibility."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "Highlight opportunities for mentorship",
+            "category": "opportunities for growth",
+            "action": "Emphasize the mentorship aspect more prominently.",
+            "currentText": "Opportunities for mentorship from senior team members.",
+            "suggestedText": "Engage in structured mentorship programs with senior team members to enhance your skills.",
+            "reasoning": "Mentorship is a strong selling point for junior roles."
+          },
+          {
+            "text": "Include examples of past projects",
+            "category": "projects",
+            "action": "Provide examples of past projects to give candidates insight into the work.",
+            "currentText": "Design and develop websites for a variety of clients across different industries.",
+            "suggestedText": "Design and develop websites for clients in sectors such as e-commerce, education, and non-profits.",
+            "reasoning": "Examples help candidates visualize the type of work they will be doing."
+          },
+          {
+            "text": "Mention potential for skill development",
+            "category": "benefits",
+            "action": "Highlight specific training programs available.",
+            "currentText": "Opportunities for skill development and training.",
+            "suggestedText": "Access to workshops, online courses, and conferences for skill development.",
+            "reasoning": "Candidates value clear paths for professional growth."
+          },
+          {
+            "text": "Clarify the salary range",
+            "category": "salary",
+            "action": "Consider providing more context about the salary range.",
+            "currentText": "Salary Range: $40,000 - $50,000 per year, commensurate with experience.",
+            "suggestedText": "Salary Range: $40,000 - $50,000 per year, with potential for raises based on performance.",
+            "reasoning": "Clarifying salary progression can attract more candidates."
+          },
+          {
+            "text": "Add diversity initiatives",
+            "category": "companyCulture",
+            "action": "Mention any specific diversity and inclusion initiatives.",
+            "currentText": "[Company Name] is an equal opportunity employer and welcomes applicants from diverse backgrounds.",
+            "suggestedText": "[Company Name] actively promotes diversity and inclusion through initiatives such as [specific programs].",
+            "reasoning": "Highlighting diversity initiatives can attract a broader range of candidates."
+          }
+        ],
+        "niceToHave": [
+          {
+            "text": "Include potential for remote team collaboration",
+            "category": "workingConditions",
+            "action": "Mention if remote team collaboration tools are used.",
+            "currentText": "Flexible working hours with options for remote work.",
+            "suggestedText": "Flexible working hours with options for remote work, utilizing tools like Slack and Zoom for team collaboration.",
+            "reasoning": "This can appeal to candidates who prefer remote work environments."
+          },
+          {
+            "text": "Mention company values",
+            "category": "companyCulture",
+            "action": "Include a brief statement about company values.",
+            "currentText": "We believe in fostering a supportive environment.",
+            "suggestedText": "We believe in fostering a supportive environment that values creativity, integrity, and collaboration.",
+            "reasoning": "Candidates often look for alignment with company values."
+          },
+          {
+            "text": "Add information about performance reviews",
+            "category": "opportunities for growth",
+            "action": "Specify how often performance reviews occur.",
+            "currentText": "Opportunities for mentorship and professional development workshops.",
+            "suggestedText": "Regular performance reviews every 6 months to discuss progress and growth opportunities.",
+            "reasoning": "Candidates appreciate knowing how their performance will be evaluated."
+          },
+          {
+            "text": "Include information on work-life balance initiatives",
+            "category": "benefits",
+            "action": "Mention any specific initiatives that promote work-life balance.",
+            "currentText": "Flexible working hours with options for remote work.",
+            "suggestedText": "Flexible working hours, wellness programs, and mental health days to promote work-life balance.",
+            "reasoning": "Candidates value companies that prioritize their well-being."
+          },
+          {
+            "text": "Provide insights on team-building activities",
+            "category": "companyCulture",
+            "action": "Give examples of team-building activities.",
+            "currentText": "Regular team-building activities and social events.",
+            "suggestedText": "Regular team-building activities such as monthly outings, game nights, and volunteer opportunities.",
+            "reasoning": "Specific examples can make the company culture more appealing."
+          }
+        ]
+      },
+      "matchabilityHints": {
+        "titleClarity": "good",
+        "skillsCoverage": "partial",
+        "locationSpecificity": "needs_improvement",
+        "seniorityLevel": "clear"
+      },
+      "summary": "The job description is well-structured and provides a clear overview of the role and company culture. However, it could benefit from more specificity in qualifications, application processes, and company values to attract a wider range of candidates."
+    },
+    "editedJD": {
+      "title": "Junior Web Designer**",
+      "fullText": "**Job Title: Junior Web Designer**\n\n**Company Overview:**\nAt [Company Name], we are a dynamic and innovative digital agency dedicated to delivering exceptional web experiences for our clients. Our team thrives on creativity, collaboration, and a passion for design. We believe in fostering a supportive environment where every team member can grow and contribute to exciting projects.\n\n**Position Summary:**\nWe are seeking a talented and motivated Junior Web Designer to join our creative team. The ideal candidate will have at least 1 year of experience or a relevant portfolio showcasing their design skills. You will report directly to the Senior Web Designer and collaborate with a team of professionals to create visually stunning and user-friendly web solutions.\n\n**Key Responsibilities:**\n- Collaborate with the Senior Web Designer and other team members to conceptualize and design engaging web layouts and user interfaces.\n- Assist in the development of responsive web designs that align with client objectives and branding guidelines.\n- Create wireframes, mockups, and prototypes using design tools.\n- Participate in team brainstorming sessions and contribute innovative ideas to enhance design projects.\n- Maintain and update existing websites, ensuring they are visually appealing and functional.\n- Stay updated on industry trends and best practices in web design.\n\n**Required Qualifications:**\n- Minimum of 1 year of experience in web design or a strong portfolio demonstrating relevant skills.\n- Proficiency in Adobe Creative Suite (Photoshop, Illustrator), Sketch, or similar design tools.\n- Familiarity with HTML, CSS, and basic JavaScript is a plus.\n- Strong attention to detail and a keen eye for aesthetics.\n- Excellent communication and teamwork skills.\n\n**Working Hours and Flexibility:**\n- Flexible working hours with options for remote work to support work-life balance.\n\n**Salary Range:**\n- $40,000 - $50,000 per year, commensurate with experience.\n\n**Opportunities for Growth:**\n- We offer a clear path for career advancement, including opportunities for mentorship from senior team members and participation in professional development workshops.\n\n**Team Collaboration:**\n- Join a collaborative team of designers and developers who value input and creativity, working together to achieve project goals.\n\n**Unique Company Benefits:**\n- Competitive salary and benefits package.\n- Flexible work environment with remote work options.\n- Opportunities for skill development and training.\n- Regular team-building activities and social events.\n\n**Projects You Might Work On:**\n- Design and develop websites for a variety of clients across different industries.\n- Create landing pages for marketing campaigns.\n- Work on redesign projects to enhance user experience and interface.\n\n**Company Design Philosophy:**\n- We prioritize user-centered design, focusing on creating intuitive and visually appealing experiences that meet the needs of our clients and their audiences.\n\n**Team Size:**\n- Join a close-knit team of [number] designers and developers, fostering a collaborative and supportive work environment.\n\nIf you are passionate about web design and eager to grow your skills in a creative and dynamic setting, we would love to hear from you! Please submit your resume and portfolio to [contact information].\n\n**Application Deadline:**\n- [Insert deadline if applicable] \n\n[Company Name] is an equal opportunity employer and welcomes applicants from diverse backgrounds.",
+      "summary": "This is an improved version with AI suggestions applied.",
+      "responsibilities": [
+        "Collaborate with the Senior Web Designer and other team members to conceptualize and design engaging web layouts and user interfaces.",
+        "Assist in the development of responsive web designs that align with client objectives and branding guidelines.",
+        "Create wireframes, mockups, and prototypes using design tools.",
+        "Participate in team brainstorming sessions and contribute innovative ideas to enhance design projects.",
+        "Maintain and update existing websites, ensuring they are visually appealing and functional.",
+        "Stay updated on industry trends and best practices in web design."
+      ],
+      "qualifications": [
+        "Minimum of 1 year of experience in web design or a strong portfolio demonstrating relevant skills.",
+        "Proficiency in Adobe Creative Suite (Photoshop, Illustrator), Sketch, or similar design tools.",
+        "Familiarity with HTML, CSS, and basic JavaScript is a plus.",
+        "Strong attention to detail and a keen eye for aesthetics.",
+        "Excellent communication and teamwork skills."
+      ],
+      "benefits": "- Flexible work environment with remote work options. - Opportunities for skill development and training. - Regular team-building activities and social events.",
+      "workingConditions": "**Salary Range:** - $40,000 - $50,000 per year, commensurate with experience."
+    },
+    "type": "manual-entry",
+    "locationRadius": "25",
+    "status": "active",
+    "location": "Not specified",
+    "workCondition": "Not specified",
+    "employmentType": "Not specified",
+    "createdAt": "2025-11-11T08:48:01.821Z"
+  },
+  {
+    "id": "1762912558855",
+    "jobTitle": "cook",
+    "location": "",
+    "workCondition": "",
+    "employmentType": "",
+    "responsibilities": [
+      "Prepare and cook meals according to recipes and menu specifications",
+      "Ensure food safety and sanitation standards are maintained",
+      "Assist in menu planning and development",
+      "Monitor inventory levels and assist with ordering supplies",
+      "Collaborate with kitchen staff to ensure efficient operation",
+      "Present dishes in an appealing manner"
+    ],
+    "minimumRequirement": "",
+    "preferredSkills": "",
+    "requirements": "",
+    "email": "employer@guhuza.com",
+    "title": "Cook",
+    "summary": "We are seeking a skilled Cook to join our culinary team. The ideal candidate will be responsible for preparing and cooking a variety of dishes while maintaining high standards of food safety and quality. Flexibility in work arrangements is encouraged to meet the needs of our diverse clientele.",
+    "minimumQualifications": [
+      "Proven experience as a cook or in a similar role",
+      "Knowledge of various cooking methods, ingredients, and equipment",
+      "Ability to work in a fast-paced environment",
+      "Strong attention to detail and creativity in food presentation",
+      "Excellent communication and teamwork skills"
+    ],
+    "preferredQualifications": [
+      "Culinary degree or certification",
+      "Experience in a high-volume kitchen",
+      "Knowledge of dietary restrictions and food allergies",
+      "Familiarity with food cost control and inventory management",
+      "Ability to create innovative recipes"
+    ],
+    "workingConditions": "Flexible work arrangements with potential for remote work or varied hours to accommodate the needs of the business.",
+    "benefits": "We offer competitive compensation, health benefits, paid time off, and opportunities for professional development.",
+    "analysis": {
+      "generatedJD": {
+        "title": "Cook",
+        "summary": "We are seeking a skilled Cook to join our culinary team. The ideal candidate will be responsible for preparing and cooking a variety of dishes while maintaining high standards of food safety and quality. Flexibility in work arrangements is encouraged to meet the needs of our diverse clientele.",
+        "responsibilities": [
+          "Prepare and cook meals according to recipes and menu specifications",
+          "Ensure food safety and sanitation standards are maintained",
+          "Assist in menu planning and development",
+          "Monitor inventory levels and assist with ordering supplies",
+          "Collaborate with kitchen staff to ensure efficient operation",
+          "Present dishes in an appealing manner"
+        ],
+        "minimumQualifications": [
+          "Proven experience as a cook or in a similar role",
+          "Knowledge of various cooking methods, ingredients, and equipment",
+          "Ability to work in a fast-paced environment",
+          "Strong attention to detail and creativity in food presentation",
+          "Excellent communication and teamwork skills"
+        ],
+        "preferredQualifications": [
+          "Culinary degree or certification",
+          "Experience in a high-volume kitchen",
+          "Knowledge of dietary restrictions and food allergies",
+          "Familiarity with food cost control and inventory management",
+          "Ability to create innovative recipes"
+        ],
+        "workingConditions": "Flexible work arrangements with potential for remote work or varied hours to accommodate the needs of the business.",
+        "benefits": "We offer competitive compensation, health benefits, paid time off, and opportunities for professional development."
+      },
+      "overallScore": 87,
+      "categoryScores": {
+        "jobTitle": 9,
+        "roleSummary": 8,
+        "reportingStructure": 7,
+        "responsibilities": 8,
+        "qualifications": 8,
+        "companyCulture": 7,
+        "benefits": 7,
+        "workingConditions": 8,
+        "languageClarity": 9,
+        "biasCompliance": 10
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "suggestion 1",
+            "category": "jobTitle",
+            "action": "fix",
+            "currentText": "Cook",
+            "suggestedText": "Line Cook or Sous Chef",
+            "reasoning": "provides clarity on the level of the position"
+          },
+          {
+            "text": "suggestion 2",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "manage kitchen staff",
+            "reasoning": "improves clarity on leadership expectations"
+          },
+          {
+            "text": "suggestion 3",
+            "category": "qualifications",
+            "action": "fix",
+            "currentText": "knowledge of cooking methods",
+            "suggestedText": "expertise in various cooking techniques",
+            "reasoning": "increases candidate quality"
+          },
+          {
+            "text": "suggestion 4",
+            "category": "languageClarity",
+            "action": "fix",
+            "currentText": "collaborate with kitchen staff",
+            "suggestedText": "work closely with kitchen team",
+            "reasoning": "better understanding"
+          },
+          {
+            "text": "suggestion 5",
+            "category": "biasCompliance",
+            "action": "fix",
+            "currentText": "high-volume kitchen",
+            "suggestedText": "fast-paced kitchen environment",
+            "reasoning": "ensures inclusivity"
+          }
+        ],
+        "recommended": [
+          {
+            "text": "recommendation 1",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "train new kitchen staff",
+            "reasoning": "provides clarity on mentorship roles"
+          },
+          {
+            "text": "recommendation 2",
+            "category": "qualifications",
+            "action": "add",
+            "suggestedText": "food safety certification",
+            "reasoning": "attracts qualified candidates"
+          },
+          {
+            "text": "recommendation 3",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "supportive kitchen environment",
+            "reasoning": "helps with cultural fit"
+          },
+          {
+            "text": "recommendation 4",
+            "category": "benefits",
+            "action": "add",
+            "suggestedText": "employee meal discounts",
+            "reasoning": "increases attractiveness"
+          },
+          {
+            "text": "recommendation 5",
+            "category": "workingConditions",
+            "action": "add",
+            "suggestedText": "potential for career advancement",
+            "reasoning": "sets clear expectations"
+          }
+        ],
+        "niceToHave": [
+          {
+            "text": "nice to have 1",
+            "category": "benefits",
+            "action": "add",
+            "suggestedText": "salary range",
+            "reasoning": "transparency increases applications"
+          },
+          {
+            "text": "nice to have 2",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "team-building activities",
+            "reasoning": "helps candidates envision role"
+          },
+          {
+            "text": "nice to have 3",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "participate in local food events",
+            "reasoning": "attracts ambitious candidates"
+          },
+          {
+            "text": "nice to have 4",
+            "category": "qualifications",
+            "action": "add",
+            "suggestedText": "experience with international cuisines",
+            "reasoning": "identifies top talent"
+          },
+          {
+            "text": "nice to have 5",
+            "category": "workingConditions",
+            "action": "add",
+            "suggestedText": "flexible scheduling options",
+            "reasoning": "improves work-life balance appeal"
+          }
+        ]
+      },
+      "matchabilityHints": {
+        "titleClarity": "good",
+        "skillsCoverage": "good",
+        "locationSpecificity": "good",
+        "seniorityLevel": "clear"
+      }
+    },
+    "type": "smart-builder",
+    "locationRadius": "25",
+    "status": "active",
+    "createdAt": "2025-11-12T01:55:58.855Z"
+  },
+  {
+    "id": "1762961104817",
+    "jobTitle": "Senior Software Developer",
+    "location": "Toronto",
+    "workCondition": "Hybrid",
+    "employmentType": "",
+    "responsibilities": [
+      "Design, develop, and maintain scalable software applications.",
+      "Collaborate with cross-functional teams to define, design, and ship new features.",
+      "Troubleshoot and debug applications to optimize performance.",
+      "Mentor junior developers and provide technical guidance.",
+      "Participate in code reviews to maintain code quality.",
+      "Stay updated with emerging technologies and industry trends.",
+      "specify technologies used in projects"
+    ],
+    "minimumRequirement": "",
+    "preferredSkills": "",
+    "requirements": "",
+    "email": "employer@guhuza.com",
+    "title": "Senior Software Engineer",
+    "summary": "We are seeking a highly skilled Senior Software Developer to join our dynamic team in Toronto. The ideal candidate will have extensive experience in software development, a strong understanding of modern programming languages, and a passion for delivering high-quality solutions.",
+    "minimumQualifications": [
+      "Bachelor's degree in Computer Science or a related field.",
+      "5+ years of experience in software development.",
+      "Proficiency in programming languages such as Java, C#, or Python.",
+      "Strong understanding of software development methodologies.",
+      "Experience with version control systems like Git.",
+      "5-7 years of experience"
+    ],
+    "preferredQualifications": [
+      "Master's degree in Computer Science or a related field.",
+      "Experience with cloud technologies such as AWS or Azure.",
+      "Familiarity with Agile/Scrum methodologies.",
+      "Knowledge of database management systems like SQL or NoSQL.",
+      "Experience in developing RESTful APIs."
+    ],
+    "workingConditions": "This is a hybrid position based in Toronto, allowing for both remote and in-office work.",
+    "benefits": "We offer competitive salaries, comprehensive health benefits, flexible work hours, and opportunities for professional development.",
+    "analysis": {
+      "generatedJD": {
+        "title": "Senior Software Developer",
+        "summary": "We are seeking a highly skilled Senior Software Developer to join our dynamic team in Toronto. The ideal candidate will have extensive experience in software development, a strong understanding of modern programming languages, and a passion for delivering high-quality solutions.",
+        "responsibilities": [
+          "Design, develop, and maintain scalable software applications.",
+          "Collaborate with cross-functional teams to define, design, and ship new features.",
+          "Troubleshoot and debug applications to optimize performance.",
+          "Mentor junior developers and provide technical guidance.",
+          "Participate in code reviews to maintain code quality.",
+          "Stay updated with emerging technologies and industry trends."
+        ],
+        "minimumQualifications": [
+          "Bachelor's degree in Computer Science or a related field.",
+          "5+ years of experience in software development.",
+          "Proficiency in programming languages such as Java, C#, or Python.",
+          "Strong understanding of software development methodologies.",
+          "Experience with version control systems like Git."
+        ],
+        "preferredQualifications": [
+          "Master's degree in Computer Science or a related field.",
+          "Experience with cloud technologies such as AWS or Azure.",
+          "Familiarity with Agile/Scrum methodologies.",
+          "Knowledge of database management systems like SQL or NoSQL.",
+          "Experience in developing RESTful APIs."
+        ],
+        "workingConditions": "This is a hybrid position based in Toronto, allowing for both remote and in-office work.",
+        "benefits": "We offer competitive salaries, comprehensive health benefits, flexible work hours, and opportunities for professional development."
+      },
+      "overallScore": 85,
+      "categoryScores": {
+        "jobTitle": 9,
+        "roleSummary": 8,
+        "reportingStructure": 7,
+        "responsibilities": 8,
+        "qualifications": 8,
+        "companyCulture": 7,
+        "benefits": 7,
+        "workingConditions": 8,
+        "languageClarity": 9,
+        "biasCompliance": 10
+      },
+      "suggestions": {
+        "critical": [
+          {
+            "text": "Clarify job title",
+            "category": "jobTitle",
+            "action": "fix",
+            "currentText": "Senior Software Developer",
+            "suggestedText": "Senior Software Engineer",
+            "reasoning": "aligns with industry standards."
+          },
+          {
+            "text": "Add specific technologies",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "specify technologies used in projects",
+            "reasoning": "provides clarity on required skills."
+          },
+          {
+            "text": "Specify required experience",
+            "category": "qualifications",
+            "action": "fix",
+            "currentText": "5+ years of experience",
+            "suggestedText": "5-7 years of experience",
+            "reasoning": "helps to filter candidates appropriately."
+          },
+          {
+            "text": "Improve language clarity",
+            "category": "languageClarity",
+            "action": "fix",
+            "currentText": "high-quality solutions",
+            "suggestedText": "robust and efficient software solutions",
+            "reasoning": "enhances understanding."
+          },
+          {
+            "text": "Remove biased terms",
+            "category": "biasCompliance",
+            "action": "fix",
+            "currentText": "dynamic team",
+            "suggestedText": "collaborative team",
+            "reasoning": "ensures inclusivity."
+          }
+        ],
+        "recommended": [
+          {
+            "text": "Add a specific task",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "lead architecture discussions",
+            "reasoning": "provides clarity on leadership expectations."
+          },
+          {
+            "text": "Include certification details",
+            "category": "qualifications",
+            "action": "add",
+            "suggestedText": "AWS Certified Developer",
+            "reasoning": "attracts qualified candidates."
+          },
+          {
+            "text": "Enhance company culture description",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "emphasize innovation and teamwork",
+            "reasoning": "helps with cultural fit."
+          },
+          {
+            "text": "Detail additional benefits",
+            "category": "benefits",
+            "action": "add",
+            "suggestedText": "remote work stipends",
+            "reasoning": "increases attractiveness."
+          },
+          {
+            "text": "Specify work detail",
+            "category": "workingConditions",
+            "action": "add",
+            "suggestedText": "mention core working hours",
+            "reasoning": "sets clear expectations."
+          }
+        ],
+        "niceToHave": [
+          {
+            "text": "Add salary range",
+            "category": "benefits",
+            "action": "add",
+            "suggestedText": "provide salary range",
+            "reasoning": "transparency increases applications."
+          },
+          {
+            "text": "Include team size info",
+            "category": "companyCulture",
+            "action": "add",
+            "suggestedText": "mention team size",
+            "reasoning": "helps candidates envision role."
+          },
+          {
+            "text": "Mention growth opportunities",
+            "category": "responsibilities",
+            "action": "add",
+            "suggestedText": "highlight career advancement opportunities",
+            "reasoning": "attracts ambitious candidates."
+          },
+          {
+            "text": "Include preferred certifications",
+            "category": "qualifications",
+            "action": "add",
+            "suggestedText": "mention preferred certifications",
+            "reasoning": "identifies top talent."
+          },
+          {
+            "text": "Add schedule flexibility",
+            "category": "workingConditions",
+            "action": "add",
+            "suggestedText": "mention flexible hours",
+            "reasoning": "improves work-life balance appeal."
+          }
+        ]
+      },
+      "matchabilityHints": {
+        "titleClarity": "good",
+        "skillsCoverage": "good",
+        "locationSpecificity": "good",
+        "seniorityLevel": "clear"
+      }
+    },
+    "type": "smart-builder",
+    "locationRadius": "25",
+    "status": "active",
+    "createdAt": "2025-11-12T15:25:04.817Z"
+  }
+]
