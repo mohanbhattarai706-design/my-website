@@ -84,7 +84,7 @@ const products = [
     origin: "China",
     img: "Pictures demo/Nashi Pears.jpg",
     extraImgs: [
-      "Pictures demo/Nashi Pears 1.jpeg",
+      "Pictures demo/Nashi pears 1.jpeg",
       "Pictures demo/Nashi Pears 2.jpeg"
     ],
     specs: {
@@ -101,9 +101,8 @@ const products = [
     categoryLabel: "Fruit",
     desc: "World-renowned Fuji apples — extra crisp with a balanced sweet-tart profile. One of the most sought-after apple varieties globally, with consistent size and brilliant coloring.",
     origin: "China",
-    img: "Pictures demo/Fuji Apple.jpeg",
+    img: "Pictures demo/fuji apple.jpeg",
     extraImgs: [
-      "Pictures demo/fuji apple.jpeg",
       "Pictures demo/fuji apple 1.jpeg",
       "Pictures demo/fuji apple 2.jpeg",
       "Pictures demo/fuji apple 3.png"
@@ -122,9 +121,9 @@ const products = [
     categoryLabel: "Fruit",
     desc: "Large, fragrant honey pomelos with a mild sweetness and minimal bitterness. A celebration fruit beloved across Asia and increasingly popular in North American specialty markets.",
     origin: "China",
-    img: "Pictures demo/Honey Pomelo.png",
+    img: "Pictures demo/honey pomelo.png",
     extraImgs: [
-      "Pictures demo/Honey Pomelo 1.png"
+      "Pictures demo/honey pomelo 1.png"
     ],
     specs: {
       "Type": "Honey",
