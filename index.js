@@ -110,3 +110,39 @@ function handleFormSubmit() {
 
 const year = new Date().getFullYear();
 document.querySelector('footer p').innerHTML = `&copy; ${year} Sudip Bhattarai. All rights reserved.`;
+
+// Mobile menu
+const btn = document.getElementById('menuBtn'), menu = document.getElementById('menu');
+btn.addEventListener('click', () => btn.setAttribute('aria-expanded', menu.classList.toggle('open')));
+menu.addEventListener('click', e => { if (e.target.tagName === 'A') { menu.classList.remove('open'); btn.setAttribute('aria-expanded', false); } });
+
+// Highlight current section in nav
+const links = [...menu.querySelectorAll('a:not(.nav-cta)')];
+const spy = new IntersectionObserver(es => es.forEach(e => {
+  if (e.isIntersecting) links.forEach(l => l.classList.toggle('active', l.hash === '#' + e.target.id));
+}), { rootMargin: '-40% 0px -55% 0px' });
+document.querySelectorAll('main section[id]').forEach(s => spy.observe(s));
+
+// Gentle reveal for sections below the hero
+const rev = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); rev.unobserve(e.target); } }), { threshold: .1 });
+document.querySelectorAll('main section:not(#home)').forEach(s => { s.classList.add('reveal'); rev.observe(s); });
+
+// Gallery lightbox
+const lb = document.getElementById('lightbox'), lbImg = lb.querySelector('img');
+document.querySelectorAll('.g').forEach(b => b.addEventListener('click', () => {
+  lbImg.src = b.dataset.src; lbImg.alt = b.querySelector('img').alt; lb.hidden = false; lb.querySelector('button').focus();
+}));
+lb.addEventListener('click', () => lb.hidden = true);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.hidden = true; });
+
+// Contact form opens the visitor's email app, pre-filled
+document.getElementById('form').addEventListener('submit', e => {
+  e.preventDefault();
+  const n = name.value.trim(), m = email.value.trim(), msg = message.value.trim(), note = document.getElementById('note');
+  if (!n || !/^\S+@\S+\.\S+$/.test(m) || !msg) { note.textContent = 'Please enter your name, a valid email and a message.'; return; }
+  const body = encodeURIComponent(`${msg}\n\nFrom: ${n} (${m})`);
+  location.href = `mailto:mohanbhattarai706@gmail.com?subject=${encodeURIComponent('Portfolio message from ' + n)}&body=${body}`;
+  note.textContent = 'Opening your email app to send the message.';
+});
+
+document.getElementById('copy').innerHTML = `&copy; ${new Date().getFullYear()} Sudip Bhattarai`;
