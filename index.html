@@ -1,309 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sudip Bhattarai - Portfolio</title>
-    <link rel="icon" type="image/jpg" href="pictures/favicon.jpg">
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sudip Bhattarai | Web Developer in Training</title>
+<meta name="description" content="Portfolio of Sudip Bhattarai, a Computer Programming student in Toronto building websites with HTML, CSS, JavaScript, Python, C# and SQL.">
+<link rel="icon" type="image/jpg" href="pictures/favicon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="loader" id="loader">
-        <div class="loader-circle"></div>
-    </div>
+<a class="skip" href="#main">Skip to content</a>
 
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="logo" onclick="scrollToHome()">SB</div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#gallery" class="nav-link">Gallery</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a href="#home" class="brand">Sudip Bhattarai</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact" class="nav-cta">Contact</a>
     </nav>
+  </div>
+</header>
 
-    <section class="hero" id="home">
-        <div class="hero-bg"></div>
-        <div class="floating-shapes">
-            <div class="shape shape1"></div>
-            <div class="shape shape2"></div>
-        </div>
-        
-        <div class="hero-left">
-            <div class="hero-image">
-                <img src="pictures/profile.jpg" alt="Sudip Bhattarai">
-            </div>
-            <h1>Sudip Bhattarai</h1>
-            <p class="tagline">Energetic, hardworking, and passionate about technology, teamwork, and growth. I build web solutions and learn continuously — currently focused on web development, Python, and C#.</p>
-            <div class="cta-buttons">
-                <a href="#" class="btn btn-primary">View My Resume</a>
-                <a href="#contact" class="btn btn-secondary">Contact Me</a>
-            </div>
-        </div>
+<main id="main">
+<section class="hero wrap" id="home">
+  <div class="hero-text">
+    <p class="status"><span class="dot"></span>Open to junior developer roles and co-op placements</p>
+    <h1>Hi, I'm Sudip. I build clean, responsive websites.</h1>
+    <p class="lead">I'm a Computer Programming student at Niagara College in Toronto. I work with HTML, CSS, JavaScript, Python and C#, and I learn fast by building real things.</p>
+    <div class="actions">
+      <a href="Sudip_Bhattarai_Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download resume</a>
+      <a href="#projects" class="btn btn-ghost">See my projects</a>
+    </div>
+    <dl class="facts">
+      <div><dt>Based in</dt><dd>Scarborough, Ontario</dd></div>
+      <div><dt>Studying</dt><dd>Computer Programming</dd></div>
+      <div><dt>Focus</dt><dd>Web, Python, C#</dd></div>
+    </dl>
+  </div>
+  <img class="portrait" src="pictures/profile.jpg" alt="Portrait of Sudip Bhattarai" width="360" height="360">
+</section>
 
-        <div class="hero-right">
-            <h2>About Me</h2>
-            <div class="about-grid">
-                <div class="about-item">
-                    <div class="about-icon">📍</div>
-                    <div class="about-content">
-                        <h3>Location</h3>
-                        <p>Scarborough, ON</p>
-                    </div>
-                </div>
-                <div class="about-item">
-                    <div class="about-icon">🎓</div>
-                    <div class="about-content">
-                        <h3>Education</h3>
-                        <p>Computer Programming</p>
-                    </div>
-                </div>
-                <div class="about-item">
-                    <div class="about-icon">💼</div>
-                    <div class="about-content">
-                        <h3>Experience</h3>
-                        <p>Manley Sales</p>
-                    </div>
-                </div>
-                <div class="about-item">
-                    <div class="about-icon">🗓️</div>
-                    <div class="about-content">
-                        <h3>Age & Journey</h3>
-                        <p>22 years old, Canada 2023</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="wrap" id="experience">
+  <h2>Experience</h2>
+  <article class="item">
+    <div class="item-head"><h3>Manley Sales</h3><span class="date">May 2024 – Oct 2025</span></div>
+    <ul>
+      <li>Packaging and quality control</li>
+      <li>Food processing, including knife skills and vegetable preparation</li>
+      <li>Order picking and fulfillment</li>
+      <li>Machine operation and maintenance</li>
+      <li>Inventory management and organization</li>
+    </ul>
+  </article>
+</section>
 
-    <section id="experience">
-        <h2>Work Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="work-card">
-                    <div class="work-header">
-                        <span class="company">Manley Sales</span>
-                        <span class="work-date">May 2024 - October 2025</span>
-                    </div>
-                    <div class="work-description">
-                        <ul style="margin-left: 20px; color: #cbd5e1;">
-                            <li>Packaging and quality control</li>
-                            <li>Food processing with advanced knife skills and vegetable preparation</li>
-                            <li>Efficient order picking and fulfillment</li>
-                            <li>Machine operation and maintenance</li>
-                            <li>Inventory management and organization</li>
-                            <li>Experience with hand tools and equipment</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="wrap" id="education">
+  <h2>Education</h2>
+  <article class="item">
+    <div class="item-head"><h3>Niagara College, Toronto</h3><span class="date">Current</span></div>
+    <p>Computer Programming. Building foundations in software development, databases and modern programming languages.</p>
+  </article>
+  <article class="item">
+    <div class="item-head"><h3>High School</h3><span class="date">Completed at 15</span></div>
+    <p>Lived in a hostel, which taught me independence and responsibility early.</p>
+  </article>
+  <article class="item">
+    <div class="item-head"><h3>Brilliant Academy</h3><span class="date">From age 6</span></div>
+    <p>Early schooling that sparked my curiosity and love of learning.</p>
+  </article>
+</section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="work-card">
-                    <div class="work-header">
-                        <span class="company">Niagara College, Toronto</span>
-                        <span class="work-date">Current</span>
-                    </div>
-                    <div class="work-description">
-                        Computer Programming - Building strong foundations in software development, databases, and modern programming languages.
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="work-card">
-                    <div class="work-header">
-                        <span class="company">High School</span>
-                        <span class="work-date">Completed at Age 15</span>
-                    </div>
-                    <div class="work-description">
-                        Lived in hostel during high school, which taught me independence, responsibility, and maturity at a young age.
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="work-card">
-                    <div class="work-header">
-                        <span class="company">Brilliant Academy</span>
-                        <span class="work-date">Started at Age 6</span>
-                    </div>
-                    <div class="work-description">
-                        Early education foundation that sparked my curiosity and love for learning.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="wrap" id="projects">
+  <h2>Projects</h2>
+  <a class="project" href="Projects/Manley_Sales/index.html" target="_blank" rel="noopener">
+    <img src="pictures/thumbnial.png" alt="Screenshot of the Manley Sales website" loading="lazy">
+    <div>
+      <h3>Manley Sales website</h3>
+      <p>A professional, responsive website for a food distribution company, built from scratch.</p>
+      <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+      <span class="link">View live site</span>
+    </div>
+  </a>
+</section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="projects-list">
-            <div class="project-item">
-                <a href="Projects/Manley_Sales/index.html" class="project-card-simple" target="_blank">
-                    <div class="project-image">
-                        <img src="pictures/thumbnial.png" alt="Manley Sales Website">
-                    </div>
-                    <div class="project-content">
-                        <h3>Manley Sales Website</h3>
-                        <p class="project-description">Professional website design showcasing modern UI/UX principles and responsive design</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
+<section class="wrap" id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div><h3>Technical</h3><ul class="tags"><li>Web development</li><li>HTML &amp; CSS</li><li>JavaScript</li><li>Python</li><li>C#</li><li>SQL</li></ul></div>
+    <div><h3>Professional</h3><ul class="tags"><li>Communication</li><li>Teamwork</li><li>Quick learner</li><li>Organization</li></ul></div>
+  </div>
+</section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-icon">🌐</div>
-                <div>Web Development</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">🐍</div>
-                <div>Python</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">#</div>
-                <div>C#</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">📊</div>
-                <div>SQL</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">💬</div>
-                <div>Communication</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">🤝</div>
-                <div>Teamwork</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">⚡</div>
-                <div>Quick Learner</div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon">🎯</div>
-                <div>Organization</div>
-            </div>
-        </div>
-    </section>
+<section class="wrap" id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <button class="g" data-src="pictures/1.jpeg"><img src="pictures/1.jpeg" alt="Gallery photo 1" loading="lazy"></button>
+    <button class="g" data-src="pictures/2.jpeg"><img src="pictures/2.jpeg" alt="Gallery photo 2" loading="lazy"></button>
+    <button class="g" data-src="pictures/3.jpeg"><img src="pictures/3.jpeg" alt="Gallery photo 3" loading="lazy"></button>
+    <button class="g" data-src="pictures/4.jpg"><img src="pictures/4.jpg" alt="Gallery photo 4" loading="lazy"></button>
+    <button class="g" data-src="pictures/5.jpg"><img src="pictures/5.jpg" alt="Gallery photo 5" loading="lazy"></button>
+    <button class="g" data-src="pictures/6.jpg"><img src="pictures/6.jpg" alt="Gallery photo 6" loading="lazy"></button>
+    <button class="g" data-src="pictures/8.jpg"><img src="pictures/8.jpg" alt="Gallery photo 7" loading="lazy"></button>
+    <button class="g" data-src="pictures/9.jpg"><img src="pictures/9.jpg" alt="Gallery photo 8" loading="lazy"></button>
+    <button class="g" data-src="pictures/10.jpg"><img src="pictures/10.jpg" alt="Gallery photo 9" loading="lazy"></button>
+  </div>
+</section>
 
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="pictures/1.jpeg" alt="Gallery 1">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/2.jpeg" alt="Gallery 2">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/3.jpeg" alt="Gallery 3">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/4.jpg" alt="Gallery 4">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/5.jpg" alt="Gallery 5">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/6.jpg" alt="Gallery 6">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/8.jpg" alt="Gallery 7">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/9.jpg" alt="Gallery 8">
-            </div>
-            <div class="gallery-item">
-                <img src="pictures/10.jpg" alt="Gallery 9">
-            </div>
-        </div>
-    </section>
+<section class="wrap" id="contact">
+  <h2>Contact</h2>
+  <div class="contact">
+    <div>
+      <p class="lead">Have a role, a project or a question? Send a message and I'll reply soon.</p>
+      <p><a class="mail" href="mailto:mohanbhattarai706@gmail.com">mohanbhattarai706@gmail.com</a></p>
+      <p class="muted">Scarborough, Ontario</p>
+      <p class="social"><a href="https://www.linkedin.com/in/YOUR-HANDLE" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/YOUR-HANDLE" target="_blank" rel="noopener">GitHub</a></p>
+    </div>
+    <form id="form" novalidate>
+      <label>Your name<input id="name" required autocomplete="name"></label>
+      <label>Your email<input id="email" type="email" required autocomplete="email"></label>
+      <label>Message<textarea id="message" rows="5" required></textarea></label>
+      <button class="btn btn-primary" type="submit">Send message</button>
+      <p class="note" id="note" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
 
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        <div class="contact-container">
-            <div class="contact-info">
-                <h3 style="margin-bottom: 1.5rem; color: var(--light);">Let's Connect</h3>
-                <div class="contact-item">
-                    <div class="contact-icon">📍</div>
-                    <div>
-                        <strong>Address</strong><br>
-                        176 Old Finch Ave, Scarborough, ON M1B 5J8
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">📞</div>
-                    <div>
-                        <strong>Phone</strong><br>
-                        +1 (437) XXX XXXX
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-icon">✉️</div>
-                    <div>
-                        <strong>Email</strong><br>
-                        mohanbhattarai706@gmail.com
-                    </div>
-                </div>
-                <div style="margin-top: 2rem;">
-                    <div class="social-links" style="justify-content: flex-start;">
-                        <a href="#" title="LinkedIn">in</a>
-                        <a href="#" title="GitHub">gh</a>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-form">
-                <h3 style="margin-bottom: 1.5rem; color: var(--light);">Send Message</h3>
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="button" class="btn btn-primary" style="width: 100%;" onclick="handleFormSubmit()">Send Message</button>
-            </div>
-        </div>
-    </section>
+<footer class="wrap foot"><p id="copy">&copy; Sudip Bhattarai</p><a href="#home">Back to top</a></footer>
 
-    <footer>
-        <div class="social-links">
-            <a href="#" title="LinkedIn">in</a>
-            <a href="#" title="GitHub">gh</a>
-            <a href="#" title="Email">@</a>
-        </div>
-        <p>&copy; 2024 Sudip Bhattarai. All rights reserved.</p>
-        <p style="color: var(--secondary); font-size: 0.9rem; margin-top: 0.5rem;">Made with passion and code</p>
-    </footer>
-
-    <script src="index.js"></script>
+<div class="lightbox" id="lightbox" hidden><button aria-label="Close photo">Close</button><img alt=""></div>
+<script src="index.js"></script>
 </body>
 </html>
