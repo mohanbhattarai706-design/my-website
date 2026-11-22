@@ -13,6 +13,7 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress"></div>
 
 <header class="nav" id="nav">
   <div class="wrap nav-in">
@@ -26,14 +27,16 @@
       <a href="#gallery">Gallery</a>
       <a href="#contact" class="nav-cta">Contact</a>
     </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Switch light or dark theme">◐</button>
   </div>
 </header>
 
 <main id="main">
 <section class="hero wrap" id="home">
+  <div class="blob b1"></div><div class="blob b2"></div>
   <div class="hero-text">
     <p class="status"><span class="dot"></span>Open to junior developer roles and co-op placements</p>
-    <h1>Hi, I'm Sudip. I build clean, responsive websites.</h1>
+    <h1>Hi, I'm Sudip.<br>I build <span class="typed" id="typed"></span></h1>
     <p class="lead">I'm a Computer Programming student at Niagara College in Toronto. I work with HTML, CSS, JavaScript, Python and C#, and I learn fast by building real things.</p>
     <div class="actions">
       <a href="Sudip_Bhattarai_Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download resume</a>
@@ -50,6 +53,7 @@
 
 <section class="wrap" id="experience">
   <h2>Experience</h2>
+  <div class="timeline">
   <article class="item">
     <div class="item-head"><h3>Manley Sales</h3><span class="date">May 2024 – Oct 2025</span></div>
     <ul>
@@ -60,10 +64,12 @@
       <li>Inventory management and organization</li>
     </ul>
   </article>
+  </div>
 </section>
 
 <section class="wrap" id="education">
   <h2>Education</h2>
+  <div class="timeline">
   <article class="item">
     <div class="item-head"><h3>Niagara College, Toronto</h3><span class="date">Current</span></div>
     <p>Computer Programming. Building foundations in software development, databases and modern programming languages.</p>
@@ -76,6 +82,7 @@
     <div class="item-head"><h3>Brilliant Academy</h3><span class="date">From age 6</span></div>
     <p>Early schooling that sparked my curiosity and love of learning.</p>
   </article>
+  </div>
 </section>
 
 <section class="wrap" id="projects">
@@ -93,10 +100,7 @@
 
 <section class="wrap" id="skills">
   <h2>Skills</h2>
-  <div class="skills">
-    <div><h3>Technical</h3><ul class="tags"><li>Web development</li><li>HTML &amp; CSS</li><li>JavaScript</li><li>Python</li><li>C#</li><li>SQL</li></ul></div>
-    <div><h3>Professional</h3><ul class="tags"><li>Communication</li><li>Teamwork</li><li>Quick learner</li><li>Organization</li></ul></div>
-  </div>
+  <div class="skill-grid"><div class="skill"><span>🌐</span>Web development</div><div class="skill"><span>🎨</span>HTML &amp; CSS</div><div class="skill"><span>⚡</span>JavaScript</div><div class="skill"><span>🐍</span>Python</div><div class="skill"><span>#️⃣</span>C#</div><div class="skill"><span>🗄️</span>SQL</div><div class="skill"><span>💬</span>Communication</div><div class="skill"><span>🤝</span>Teamwork</div><div class="skill"><span>🚀</span>Quick learner</div><div class="skill"><span>🎯</span>Organization</div></div>
 </section>
 
 <section class="wrap" id="gallery">
@@ -136,7 +140,8 @@
 
 <footer class="wrap foot"><p id="copy">&copy; Sudip Bhattarai</p><a href="#home">Back to top</a></footer>
 
-<div class="lightbox" id="lightbox" hidden><button aria-label="Close photo">Close</button><img alt=""></div>
+<div class="lightbox" id="lightbox" hidden><button class="lb-close" aria-label="Close photo">Close</button><button class="lb-nav prev" aria-label="Previous photo">‹</button><img alt=""><button class="lb-nav next" aria-label="Next photo">›</button></div>
+<a href="#home" class="totop" id="toTop" aria-label="Back to top">↑</a>
 <script src="index.js"></script>
 </body>
 </html>
