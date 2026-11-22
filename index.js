@@ -1,116 +1,3 @@
-window.addEventListener('load', () => {
-    setTimeout(() => {
-        document.getElementById('loader').classList.add('hidden');
-    }, 1000);
-});
-
-const navbar = document.getElementById('navbar');
-const navLinks = document.querySelectorAll('.nav-link');
-
-function scrollToHome() {
-    document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
-}
-
-function updateActiveNavLink() {
-    const sections = document.querySelectorAll('section[id]');
-    const scrollY = window.pageYOffset;
-
-    sections.forEach(section => {
-        const sectionHeight = section.offsetHeight;
-        const sectionTop = section.offsetTop - 100;
-        const sectionId = section.getAttribute('id');
-        
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${sectionId}`) {
-                    link.classList.add('active');
-                }
-            });
-        }
-    });
-}
-
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 100) {
-        navbar.classList.add('scrolled');
-    } else {
-        navbar.classList.remove('scrolled');
-    }
-    updateActiveNavLink();
-
-    const scrolled = window.pageYOffset;
-    const parallax = document.querySelector('.hero');
-    const heroHeight = parallax ? parallax.offsetHeight : 0;
-    
-    if (parallax && scrolled < heroHeight) {
-        const fadeStart = heroHeight * 0.6;
-        if (scrolled > fadeStart) {
-            const fadeProgress = (scrolled - fadeStart) / (heroHeight - fadeStart);
-            parallax.style.transform = `translateY(${scrolled * 0.3}px)`;
-            parallax.style.opacity = 1 - fadeProgress;
-        } else {
-            parallax.style.transform = `translateY(0)`;
-            parallax.style.opacity = 1;
-        }
-    }
-});
-
-const hamburger = document.getElementById('hamburger');
-const navLinksContainer = document.getElementById('navLinks');
-
-hamburger.addEventListener('click', () => {
-    hamburger.classList.toggle('active');
-    navLinksContainer.classList.toggle('active');
-});
-
-document.querySelectorAll('.nav-link').forEach(link => {
-    link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        navLinksContainer.classList.remove('active');
-    });
-});
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-    });
-});
-
-const observerOptions = {
-    threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-        }
-    });
-}, observerOptions);
-
-document.querySelectorAll('section').forEach(section => {
-    observer.observe(section);
-});
-
-function handleFormSubmit() {
-    alert('Thank you for your message! I will get back to you soon.');
-    document.getElementById('name').value = '';
-    document.getElementById('email').value = '';
-    document.getElementById('message').value = '';
-}
-
-const year = new Date().getFullYear();
-document.querySelector('footer p').innerHTML = `&copy; ${year} Sudip Bhattarai. All rights reserved.`;
-
 // Mobile menu
 const btn = document.getElementById('menuBtn'), menu = document.getElementById('menu');
 btn.addEventListener('click', () => btn.setAttribute('aria-expanded', menu.classList.toggle('open')));
@@ -127,13 +14,49 @@ document.querySelectorAll('main section[id]').forEach(s => spy.observe(s));
 const rev = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); rev.unobserve(e.target); } }), { threshold: .1 });
 document.querySelectorAll('main section:not(#home)').forEach(s => { s.classList.add('reveal'); rev.observe(s); });
 
-// Gallery lightbox
+// Gallery lightbox with previous / next
 const lb = document.getElementById('lightbox'), lbImg = lb.querySelector('img');
-document.querySelectorAll('.g').forEach(b => b.addEventListener('click', () => {
-  lbImg.src = b.dataset.src; lbImg.alt = b.querySelector('img').alt; lb.hidden = false; lb.querySelector('button').focus();
-}));
-lb.addEventListener('click', () => lb.hidden = true);
-document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.hidden = true; });
+const shots = [...document.querySelectorAll('.g')]; let cur = 0;
+function show(i) { cur = (i + shots.length) % shots.length; lbImg.src = shots[cur].dataset.src; lbImg.alt = shots[cur].querySelector('img').alt; lb.hidden = false; }
+shots.forEach((b, i) => b.addEventListener('click', () => { show(i); lb.querySelector('.lb-close').focus(); }));
+lb.addEventListener('click', e => { if (e.target === lb || e.target.classList.contains('lb-close')) lb.hidden = true; });
+lb.querySelector('.prev').addEventListener('click', () => show(cur - 1));
+lb.querySelector('.next').addEventListener('click', () => show(cur + 1));
+document.addEventListener('keydown', e => {
+  if (lb.hidden) return;
+  if (e.key === 'Escape') lb.hidden = true;
+  if (e.key === 'ArrowLeft') show(cur - 1);
+  if (e.key === 'ArrowRight') show(cur + 1);
+});
+
+// Typing effect in the hero
+const roles = ['clean, responsive websites.', 'tools with Python.', 'apps with C#.', 'things that work.'];
+const typed = document.getElementById('typed');
+if (matchMedia('(prefers-reduced-motion: reduce)').matches) { typed.textContent = roles[0]; }
+else { let r = 0, c = 0, del = false;
+  (function tick() {
+    const w = roles[r]; typed.textContent = w.slice(0, c);
+    if (!del && c === w.length) { del = true; return setTimeout(tick, 1600); }
+    if (del && c === 0) { del = false; r = (r + 1) % roles.length; }
+    c += del ? -1 : 1; setTimeout(tick, del ? 35 : 70);
+  })(); }
+
+// Scroll progress bar and back-to-top button
+const bar = document.getElementById('progress'), top_ = document.getElementById('toTop');
+addEventListener('scroll', () => {
+  const max = document.documentElement.scrollHeight - innerHeight;
+  bar.style.width = (scrollY / max * 100) + '%';
+  top_.classList.toggle('show', scrollY > 600);
+}, { passive: true });
+
+// Light / dark toggle (remembers choice)
+const root = document.documentElement, tb = document.getElementById('themeBtn');
+try { const s = localStorage.getItem('theme'); if (s) root.dataset.theme = s; } catch (e) {}
+tb.addEventListener('click', () => {
+  const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+  root.dataset.theme = dark ? 'light' : 'dark';
+  try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+});
 
 // Contact form opens the visitor's email app, pre-filled
 document.getElementById('form').addEventListener('submit', e => {
